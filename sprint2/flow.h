@@ -13,11 +13,14 @@ using namespace std;
     public:
         Flow(string name);
         ~Flow();
-        Flow& operator=(const Flow&);
+        Flow& operator=(Flow&);
         bool setSource(System* s1);
         bool setTarget(System* s2);
         System* getSource();
         System* getTarget();
+        string getNome();
+        void setNome(string nome);
         void setEquation (function<double()> equation);
+        const function<double()>& getEquation() const;
         double evaluate();
     };
