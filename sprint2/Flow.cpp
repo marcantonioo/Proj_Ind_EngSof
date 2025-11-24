@@ -4,13 +4,13 @@
 Flow::~Flow(){}
 
 Flow::Flow(string nome){nome = nome;}
-Flow& Flow::operator= (Flow& s1){
-    if (this == &s1) return;
-    if (this != &s1){
-        this->setEquation(s1.getEquation());
-        s1.setSource(source);
-        s1.setTarget(target);
-        s1.setNome(nome);
+Flow& Flow::operator= (Flow& other){
+    if (this == &other) return;
+    if (this != &other){
+        this->setEquation(other.getEquation());
+        other.setSource(source);
+        other.setTarget(target);
+        other.setNome(nome);
     }
 }
 
