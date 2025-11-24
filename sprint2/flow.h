@@ -1,4 +1,4 @@
-#include "system.h"
+#include "System.h"
 #include <functional>
 #include <string>
 
@@ -22,5 +22,5 @@ using namespace std;
         void setNome(string nome);
         void setEquation (function<double()> equation);
         const function<double()>& getEquation() const;
-        double evaluate();
+        virtual double evaluate() = 0;
     };

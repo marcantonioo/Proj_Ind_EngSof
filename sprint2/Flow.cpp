@@ -5,13 +5,12 @@ Flow::~Flow(){}
 
 Flow::Flow(string nome){nome = nome;}
 Flow& Flow::operator= (Flow& other){
-    if (this == &other) return;
-    if (this != &other){
-        this->setEquation(other.getEquation());
-        other.setSource(source);
-        other.setTarget(target);
-        other.setNome(nome);
-    }
+    if (this == &other) return *this;
+    this->setEquation(other.getEquation());
+    setSource(other.getSource());
+    setTarget(other.getTarget());
+    setNome(other.getNome());
+    return *this;
 }
 
 bool Flow::setSource(System* s1){this->source = s1;}
