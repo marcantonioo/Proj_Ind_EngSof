@@ -1,4 +1,4 @@
-#include "Model.h"
+#include "../include/Model.h"
 #include <algorithm>
 
 Model::Model(){}
@@ -58,12 +58,12 @@ void Model::run(double inicio, double fim, double ritmo){
         for (auto it : Flows){
             resultado.push_back(it->evaluate());
         }
-        for (int j = 0; j < Flows.size(); j++){
-            if(Flows[j]->getSource())
-                Flows[j]->getSource()->update(Flows[j]->getSource()->getValue() - resultado[j]);
-            if(Flows[j]->getTarget())
-                Flows[j]->getTarget()->update(Flows[j]->getTarget()->getValue() + resultado[j]);
-            
+        for (size_t j = 0; j < Flows.size(); j++){
+            auto f = Flows[j];
+            if(f->getSource())
+                f->getSource()->update(f->getSource()->getValue() - resultado[j]);
+            if(f->getTarget())
+                f->getTarget()->update(f->getTarget()->getValue() + resultado[j]);
         }
     }
 }

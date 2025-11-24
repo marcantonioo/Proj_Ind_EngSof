@@ -14,7 +14,7 @@ public:
     System(string nome);
     System(double valor);
     System();
-    System& System::operator=(System& other);
+    System& operator=(System& other);
     ~System();
 
     bool setValue(double valor);
