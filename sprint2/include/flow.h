@@ -1,3 +1,7 @@
+#ifndef FLOW
+#define FLOW
+
+
 #include "System.h"
 #include <functional>
 #include <string>
@@ -25,3 +29,5 @@ using namespace std;
         const function<double(double)>& getEquation() const;
         double evaluate();
     };
+
+#endif

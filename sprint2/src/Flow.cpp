@@ -24,5 +24,7 @@ void Flow::setNome(string nome){this->nome = nome;}
 void Flow::setEquation (function<double(double)> equation){this->equation = equation;}
 const function<double(double)>& Flow::getEquation() const {return equation;}
 double Flow::evaluate(){
-    return equation(getSource()->getValue());
+    if (source) 
+        return equation(source->getValue());
+    return equation(0);
 }

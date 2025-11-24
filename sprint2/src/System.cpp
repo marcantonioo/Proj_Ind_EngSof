@@ -1,8 +1,8 @@
 #include "../include/System.h"
 
 System::System(string nome, double valor): nome(nome), valor(valor){}
-System::System(string nome):nome(nome), valor(valor){}
-System::System(double valor):valor(valor), nome(""){}
+System::System(string nome):nome(nome){valor = 0;}
+System::System(double valor):valor(valor){nome = "";}
 System::System():nome(""), valor(0){}
 System::~System(){}
 System& System::operator=(System& other){
