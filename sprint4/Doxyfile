@@ -1,0 +1,67 @@
+# -----------------------------------------------------------------------------
+# INFORMAÇÕES DO PROJETO
+# -----------------------------------------------------------------------------
+
+PROJECT_NAME = "Simulador - Sprint 3"
+
+PROJECT_BRIEF = "Documentação do simulador com gráficos de dependência, diagramas de classe e testes."
+
+OUTPUT_DIRECTORY = docs
+
+# -----------------------------------------------------------------------------
+# DIRETÓRIOS DE ENTRADA
+# -----------------------------------------------------------------------------
+
+# Pastas que serão documentadas
+INPUT = \
+    src \
+    include \
+    test/funcional \
+    test/unit
+
+# Incluir recursivamente
+RECURSIVE = YES
+
+# Tipos de arquivos que o Doxygen deve analisar
+FILE_PATTERNS = *.cpp *.c *.h *.hpp
+
+# Padrões de arquivos NÃO desejados
+EXCLUDE_PATTERNS = */bin/*
+
+# Evita entrar no diretório /bin
+EXCLUDE = bin
+
+# -----------------------------------------------------------------------------
+# EXTRAÇÃO DE DOCUMENTAÇÃO
+# -----------------------------------------------------------------------------
+
+EXTRACT_ALL = YES
+EXTRACT_PRIVATE = YES
+EXTRACT_STATIC = YES
+EXTRACT_LOCAL_CLASSES = YES
+
+# -----------------------------------------------------------------------------
+# CONFIGURAÇÃO DA SAÍDA
+# -----------------------------------------------------------------------------
+
+OUTPUT_DIRECTORY = docs
+
+GENERATE_HTML = YES
+GENERATE_LATEX = NO
+GENERATE_MAN = NO
+GENERATE_RTF = NO
+
+# Navegação
+GENERATE_TREEVIEW = YES
+
+# -----------------------------------------------------------------------------
+# CÓDIGO-FONTE
+# -----------------------------------------------------------------------------
+
+SOURCE_BROWSER = YES
+INLINE_SOURCES = YES
+
+REFERENCES_RELATION = YES
+REFERENCED_BY_RELATION = YES
+
+# -------------------------------------------------------------------------
