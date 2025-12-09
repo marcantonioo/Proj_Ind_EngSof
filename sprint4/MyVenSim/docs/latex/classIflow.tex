@@ -1,0 +1,185 @@
+\doxysection{Iflow Class Reference}
+\hypertarget{classIflow}{}\label{classIflow}\index{Iflow@{Iflow}}
+
+
+Interface que define o comportamento de um fluxo (\doxylink{classFlow}{Flow}).  
+
+
+
+
+{\ttfamily \#include $<$Iflow.\+h$>$}
+
+
+
+Inheritance diagram for Iflow\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classIflow__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Iflow\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=168pt]{classIflow__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual bool \mbox{\hyperlink{classIflow_a5ebada65e521cab2527e02c96ab8aa75}{set\+Source}} (\mbox{\hyperlink{classIsystem}{Isystem}} \texorpdfstring{$\ast$}{*}s1)=0
+\item 
+virtual bool \mbox{\hyperlink{classIflow_ab0039cdf215750e60cfd393951f53ab8}{set\+Target}} (\mbox{\hyperlink{classIsystem}{Isystem}} \texorpdfstring{$\ast$}{*}s2)=0
+\item 
+virtual \mbox{\hyperlink{classIsystem}{Isystem}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classIflow_a9b469152ff7708c403b4b364adacab4f}{get\+Source}} ()=0
+\item 
+virtual \mbox{\hyperlink{classIsystem}{Isystem}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classIflow_a9877325e3936e22431302a7d76b05967}{get\+Target}} ()=0
+\item 
+virtual string \mbox{\hyperlink{classIflow_ad11ef2fc513de49f136983d50a7a593c}{get\+Nome}} ()=0
+\item 
+virtual void \mbox{\hyperlink{classIflow_a80689715faa30b2d9bbb61d3511c6bb1}{set\+Nome}} (string nome)=0
+\item 
+virtual void \mbox{\hyperlink{classIflow_a6fb6859b8de8e44d8350cf57b8e044c4}{set\+Equation}} (function$<$ double(double)$>$ equation)=0
+\item 
+virtual const function$<$ double(double)$>$ \& \mbox{\hyperlink{classIflow_a2a66f84cec5e29ff5607ee4f913f1ab1}{get\+Equation}} () const =0
+\item 
+virtual double \mbox{\hyperlink{classIflow_acc3214b8791c6e3979338879d96aefda}{evaluate}} ()=0
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Interface que define o comportamento de um fluxo (\doxylink{classFlow}{Flow}). 
+
+A interface \doxylink{classIflow}{Iflow} declara métodos para definir e obter o sistema de origem e destino, nome, equação do fluxo e para avaliar o valor do fluxo. 
+
+Definition at line \mbox{\hyperlink{Iflow_8h_source_l00021}{21}} of file \mbox{\hyperlink{Iflow_8h_source}{Iflow.\+h}}.
+
+
+
+\label{doc-func-members}
+\Hypertarget{classIflow_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classIflow_acc3214b8791c6e3979338879d96aefda}\index{Iflow@{Iflow}!evaluate@{evaluate}}
+\index{evaluate@{evaluate}!Iflow@{Iflow}}
+\doxysubsubsection{\texorpdfstring{evaluate()}{evaluate()}}
+{\footnotesize\ttfamily \label{classIflow_acc3214b8791c6e3979338879d96aefda} 
+virtual double Iflow\+::evaluate (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Implemented in \mbox{\hyperlink{classFlow_a3f9f622a865be965993b019f23a07c94}{Flow}}.
+
+\Hypertarget{classIflow_a2a66f84cec5e29ff5607ee4f913f1ab1}\index{Iflow@{Iflow}!getEquation@{getEquation}}
+\index{getEquation@{getEquation}!Iflow@{Iflow}}
+\doxysubsubsection{\texorpdfstring{getEquation()}{getEquation()}}
+{\footnotesize\ttfamily \label{classIflow_a2a66f84cec5e29ff5607ee4f913f1ab1} 
+virtual const function$<$ double(double)$>$ \& Iflow\+::get\+Equation (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Implemented in \mbox{\hyperlink{classFlow_a27f7518509dc0eb9c906a858f280f47b}{Flow}}.
+
+\Hypertarget{classIflow_ad11ef2fc513de49f136983d50a7a593c}\index{Iflow@{Iflow}!getNome@{getNome}}
+\index{getNome@{getNome}!Iflow@{Iflow}}
+\doxysubsubsection{\texorpdfstring{getNome()}{getNome()}}
+{\footnotesize\ttfamily \label{classIflow_ad11ef2fc513de49f136983d50a7a593c} 
+virtual string Iflow\+::get\+Nome (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Implemented in \mbox{\hyperlink{classFlow_a608582dc40f22ffb499f8c844ee8e8ee}{Flow}}.
+
+\Hypertarget{classIflow_a9b469152ff7708c403b4b364adacab4f}\index{Iflow@{Iflow}!getSource@{getSource}}
+\index{getSource@{getSource}!Iflow@{Iflow}}
+\doxysubsubsection{\texorpdfstring{getSource()}{getSource()}}
+{\footnotesize\ttfamily \label{classIflow_a9b469152ff7708c403b4b364adacab4f} 
+virtual \mbox{\hyperlink{classIsystem}{Isystem}} \texorpdfstring{$\ast$}{*} Iflow\+::get\+Source (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Implemented in \mbox{\hyperlink{classFlow_a5bed46d419bb63fcf9d7d5a9c9a61610}{Flow}}.
+
+\Hypertarget{classIflow_a9877325e3936e22431302a7d76b05967}\index{Iflow@{Iflow}!getTarget@{getTarget}}
+\index{getTarget@{getTarget}!Iflow@{Iflow}}
+\doxysubsubsection{\texorpdfstring{getTarget()}{getTarget()}}
+{\footnotesize\ttfamily \label{classIflow_a9877325e3936e22431302a7d76b05967} 
+virtual \mbox{\hyperlink{classIsystem}{Isystem}} \texorpdfstring{$\ast$}{*} Iflow\+::get\+Target (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Implemented in \mbox{\hyperlink{classFlow_a3de25de4895144db86a837220c05a462}{Flow}}.
+
+\Hypertarget{classIflow_a6fb6859b8de8e44d8350cf57b8e044c4}\index{Iflow@{Iflow}!setEquation@{setEquation}}
+\index{setEquation@{setEquation}!Iflow@{Iflow}}
+\doxysubsubsection{\texorpdfstring{setEquation()}{setEquation()}}
+{\footnotesize\ttfamily \label{classIflow_a6fb6859b8de8e44d8350cf57b8e044c4} 
+virtual void Iflow\+::set\+Equation (\begin{DoxyParamCaption}\item[{function$<$ double(double)$>$}]{equation}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Implemented in \mbox{\hyperlink{classFlow_ab0328a0ed3a7c41d189a5074235eda96}{Flow}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classIflow_a6fb6859b8de8e44d8350cf57b8e044c4_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classIflow_a80689715faa30b2d9bbb61d3511c6bb1}\index{Iflow@{Iflow}!setNome@{setNome}}
+\index{setNome@{setNome}!Iflow@{Iflow}}
+\doxysubsubsection{\texorpdfstring{setNome()}{setNome()}}
+{\footnotesize\ttfamily \label{classIflow_a80689715faa30b2d9bbb61d3511c6bb1} 
+virtual void Iflow\+::set\+Nome (\begin{DoxyParamCaption}\item[{string}]{nome}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Implemented in \mbox{\hyperlink{classFlow_a247acd8a02c40ac58b6b3c667c2c1e78}{Flow}}.
+
+\Hypertarget{classIflow_a5ebada65e521cab2527e02c96ab8aa75}\index{Iflow@{Iflow}!setSource@{setSource}}
+\index{setSource@{setSource}!Iflow@{Iflow}}
+\doxysubsubsection{\texorpdfstring{setSource()}{setSource()}}
+{\footnotesize\ttfamily \label{classIflow_a5ebada65e521cab2527e02c96ab8aa75} 
+virtual bool Iflow\+::set\+Source (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classIsystem}{Isystem}} \texorpdfstring{$\ast$}{*}}]{s1}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Implemented in \mbox{\hyperlink{classFlow_a17686d5a9388dab6cbc3d0350f9d7f0a}{Flow}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classIflow_a5ebada65e521cab2527e02c96ab8aa75_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classIflow_ab0039cdf215750e60cfd393951f53ab8}\index{Iflow@{Iflow}!setTarget@{setTarget}}
+\index{setTarget@{setTarget}!Iflow@{Iflow}}
+\doxysubsubsection{\texorpdfstring{setTarget()}{setTarget()}}
+{\footnotesize\ttfamily \label{classIflow_ab0039cdf215750e60cfd393951f53ab8} 
+virtual bool Iflow\+::set\+Target (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classIsystem}{Isystem}} \texorpdfstring{$\ast$}{*}}]{s2}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Implemented in \mbox{\hyperlink{classFlow_a42d7c4c3910e9753330b81da707335a8}{Flow}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classIflow_ab0039cdf215750e60cfd393951f53ab8_icgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+include/interface/\mbox{\hyperlink{Iflow_8h}{Iflow.\+h}}\end{DoxyCompactItemize}

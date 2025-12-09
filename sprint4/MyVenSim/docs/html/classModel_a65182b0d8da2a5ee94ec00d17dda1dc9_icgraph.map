@@ -1,0 +1,10 @@
+<map id="Model::remove" name="Model::remove">
+<area shape="rect" id="Node000001" title="Remove e libera a memória de um sistema da coleção." alt="" coords="363,31,483,56"/>
+<area shape="rect" id="Node000002" href="$unit__model_8cpp.html#a2d71677e700126f65ac1d52fb72d83bc" title="Testa o método remove(Iflow*) da classe Model." alt="" coords="118,5,305,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="349,37,305,32,305,27,350,32"/>
+<area shape="rect" id="Node000004" href="$unit__model_8cpp.html#aa3b15bec7dc46fd2a1db83155067a18d" title="Testa o método remove(Isystem*) da classe Model." alt="" coords="108,55,315,80"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="350,54,315,58,314,53,349,49"/>
+<area shape="rect" id="Node000003" href="$test_2unit_2main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Função principal que executa todos os testes." alt="" coords="5,31,60,56"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="108,35,61,42,60,37,107,30"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="103,55,60,50,61,44,104,50"/>
+</map>

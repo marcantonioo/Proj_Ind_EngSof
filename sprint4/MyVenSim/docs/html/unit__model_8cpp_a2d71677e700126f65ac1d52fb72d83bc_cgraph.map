@@ -1,0 +1,7 @@
+<map id="test_model_remove_flow" name="test_model_remove_flow">
+<area shape="rect" id="Node000001" title="Testa o método remove(Iflow*) da classe Model." alt="" coords="5,31,192,56"/>
+<area shape="rect" id="Node000002" href="$classModel.html#ad5578b0bc8a75aa34a3471b8610c9f2b" title="Adiciona um sistema e um fluxo simultaneamente." alt="" coords="253,5,347,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="192,29,239,23,239,28,193,34"/>
+<area shape="rect" id="Node000003" href="$classModel.html#a65182b0d8da2a5ee94ec00d17dda1dc9" title="Remove e libera a memória de um sistema da coleção." alt="" coords="240,55,360,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="193,52,226,56,226,61,192,57"/>
+</map>

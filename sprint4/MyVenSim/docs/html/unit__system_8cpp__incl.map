@@ -1,0 +1,15 @@
+<map id="test/unit/unit_system.cpp" name="test/unit/unit_system.cpp">
+<area shape="rect" id="Node000001" title="Implementação dos testes unitários da classe System." alt="" coords="84,5,271,31"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,79,75,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="156,33,76,75,73,70,154,28"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="99,79,179,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="173,32,154,68,149,65,169,30"/>
+<area shape="rect" id="Node000004" href="$Isystem_8h.html" title=" " alt="" coords="141,152,296,192"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="183,30,212,138,207,139,178,31"/>
+<area shape="rect" id="Node000006" href="$System_8h.html" title=" " alt="" coords="254,79,413,104"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="203,28,296,70,294,75,201,33"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="247,240,305,265"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="235,191,261,227,257,230,230,194"/>
+<area shape="poly" id="edge7_Node000006_Node000004" title=" " alt="" coords="318,106,259,146,256,142,315,102"/>
+<area shape="poly" id="edge6_Node000006_Node000005" title=" " alt="" coords="334,105,325,145,310,193,293,229,288,227,306,191,320,143,329,104"/>
+</map>

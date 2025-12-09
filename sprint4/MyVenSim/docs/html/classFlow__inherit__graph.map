@@ -1,0 +1,5 @@
+<map id="Flow" name="Flow">
+<area shape="rect" id="Node000001" title="Implementação da interface Iflow que representa um fluxo entre dois sistemas." alt="" coords="5,279,123,644"/>
+<area shape="rect" id="Node000002" href="$classIflow.html" title="Interface que define o comportamento de um fluxo (Flow)." alt="" coords="5,5,123,231"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="67,244,67,278,61,278,61,244"/>
+</map>

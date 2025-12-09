@@ -1,0 +1,17 @@
+<map id="System::getValue" name="System::getValue">
+<area shape="rect" id="Node000001" title="Obtém o valor atual do sistema." alt="" coords="321,104,457,129"/>
+<area shape="rect" id="Node000002" href="$src_2main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Função principal de execução do simulador." alt="" coords="163,5,218,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="360,98,319,71,272,44,217,26,219,21,274,40,322,66,363,94"/>
+<area shape="rect" id="Node000003" href="$classSystem.html#a2947eed5e4c3ed7df2d32137e1c5c338" title="Operador de atribuição (cópia)." alt="" coords="118,55,263,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="324,103,242,83,243,77,325,98"/>
+<area shape="rect" id="Node000004" href="$unit__system_8cpp.html#a3186fd4155e4d662ce4223fb03c3eef9" title="Testa o construtor default do System." alt="" coords="117,104,264,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="308,119,264,119,264,114,308,114"/>
+<area shape="rect" id="Node000006" href="$unit__system_8cpp.html#a239bad6b98af485379b12bc92b7f99e5" title="Testa o método setValue do System." alt="" coords="108,153,273,179"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="325,135,243,156,242,151,324,130"/>
+<area shape="rect" id="Node000007" href="$unit__system_8cpp.html#adf30db21f29f736c3e1c39404716645f" title="Testa o método update do System." alt="" coords="113,203,268,228"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="361,140,321,167,274,192,241,205,240,200,272,188,319,162,359,135"/>
+<area shape="rect" id="Node000005" href="$test_2unit_2main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Função principal que executa todos os testes." alt="" coords="5,153,60,179"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="132,136,109,143,61,159,59,154,107,138,131,131"/>
+<area shape="poly" id="edge6_Node000006_Node000005" title=" " alt="" coords="94,169,60,169,60,163,94,163"/>
+<area shape="poly" id="edge8_Node000007_Node000005" title=" " alt="" coords="134,201,107,193,59,177,61,172,109,187,136,196"/>
+</map>

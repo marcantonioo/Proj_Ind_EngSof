@@ -1,0 +1,166 @@
+\doxysection{test/funcional/funcional\+\_\+tests.h File Reference}
+\hypertarget{funcional__tests_8h}{}\label{funcional__tests_8h}\index{test/funcional/funcional\_tests.h@{test/funcional/funcional\_tests.h}}
+
+
+Declarações das funções de testes funcionais para o simulador Ven\+Sim.  
+
+
+This graph shows which files directly or indirectly include this file\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{funcional__tests_8h__dep__incl}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{funcional__tests_8h_a2c448ffaffdff4b03c825a01dffa6f27}{exponential\+Funcional\+Test}} ()
+\begin{DoxyCompactList}\small\item\em Executa o teste funcional de Crescimento/\+Decaimento Exponencial. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{funcional__tests_8h_a60914db64bde71b56d69320797266c29}{logistical\+Funcional\+Test}} ()
+\begin{DoxyCompactList}\small\item\em Executa o teste funcional de Crescimento Logístico. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{funcional__tests_8h_a943dfe0c597a01c9760c140715fed527}{complex\+Funcional\+Test}} ()
+\begin{DoxyCompactList}\small\item\em Executa o teste funcional de Modelo Complexo. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Declarações das funções de testes funcionais para o simulador Ven\+Sim. 
+
+
+\begin{DoxyItemize}
+\item Este arquivo contém as assinaturas de funções que implementam testes
+\item de ponta-\/a-\/ponta para validar a correta dinâmica do sistema (Model/\+System/\+Flow). 
+\end{DoxyItemize}
+
+Definition in file \mbox{\hyperlink{funcional__tests_8h_source}{funcional\+\_\+tests.\+h}}.
+
+
+
+\label{doc-func-members}
+\Hypertarget{funcional__tests_8h_doc-func-members}
+\doxysubsection{Function Documentation}
+\Hypertarget{funcional__tests_8h_a943dfe0c597a01c9760c140715fed527}\index{funcional\_tests.h@{funcional\_tests.h}!complexFuncionalTest@{complexFuncionalTest}}
+\index{complexFuncionalTest@{complexFuncionalTest}!funcional\_tests.h@{funcional\_tests.h}}
+\doxysubsubsection{\texorpdfstring{complexFuncionalTest()}{complexFuncionalTest()}}
+{\footnotesize\ttfamily \label{funcional__tests_8h_a943dfe0c597a01c9760c140715fed527} 
+void complex\+Funcional\+Test (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Executa o teste funcional de Modelo Complexo. 
+
+
+\begin{DoxyItemize}
+\item Verifica a conservação de valor em uma rede de múltiplos sistemas e fluxos.
+\end{DoxyItemize}
+
+Executa o teste funcional de Modelo Complexo.
+
+
+\begin{DoxyItemize}
+\item O teste configura uma rede complexa de 5 sistemas e 6 fluxos interconectados.
+\item O principal objetivo é verificar se a massa/valor total do sistema é conservada
+\item ao longo da simulação, mesmo com múltiplas transferências simultâneas. 
+\end{DoxyItemize}
+
+Definition at line \mbox{\hyperlink{funcional__tests_8cpp_source_l00115}{115}} of file \mbox{\hyperlink{funcional__tests_8cpp_source}{funcional\+\_\+tests.\+cpp}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=345pt]{funcional__tests_8h_a943dfe0c597a01c9760c140715fed527_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=282pt]{funcional__tests_8h_a943dfe0c597a01c9760c140715fed527_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{funcional__tests_8h_a2c448ffaffdff4b03c825a01dffa6f27}\index{funcional\_tests.h@{funcional\_tests.h}!exponentialFuncionalTest@{exponentialFuncionalTest}}
+\index{exponentialFuncionalTest@{exponentialFuncionalTest}!funcional\_tests.h@{funcional\_tests.h}}
+\doxysubsubsection{\texorpdfstring{exponentialFuncionalTest()}{exponentialFuncionalTest()}}
+{\footnotesize\ttfamily \label{funcional__tests_8h_a2c448ffaffdff4b03c825a01dffa6f27} 
+void exponential\+Funcional\+Test (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Executa o teste funcional de Crescimento/\+Decaimento Exponencial. 
+
+
+\begin{DoxyItemize}
+\item Verifica se o fluxo é proporcional ao estoque e se o valor total é conservado.
+\end{DoxyItemize}
+
+Executa o teste funcional de Crescimento/\+Decaimento Exponencial.
+
+
+\begin{DoxyItemize}
+\item O teste configura um sistema onde o \doxylink{classFlow}{Flow} de transferência é proporcional ao
+\item valor do sistema de origem (Rate = 0.\+01 \texorpdfstring{$\ast$}{*} Source Value).
+\item O valor total (sis1 + sis2) deve ser conservado.
+\item Os valores finais são comparados com resultados analíticos conhecidos. 
+\end{DoxyItemize}
+
+Definition at line \mbox{\hyperlink{funcional__tests_8cpp_source_l00023}{23}} of file \mbox{\hyperlink{funcional__tests_8cpp_source}{funcional\+\_\+tests.\+cpp}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{funcional__tests_8h_a2c448ffaffdff4b03c825a01dffa6f27_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=297pt]{funcional__tests_8h_a2c448ffaffdff4b03c825a01dffa6f27_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{funcional__tests_8h_a60914db64bde71b56d69320797266c29}\index{funcional\_tests.h@{funcional\_tests.h}!logisticalFuncionalTest@{logisticalFuncionalTest}}
+\index{logisticalFuncionalTest@{logisticalFuncionalTest}!funcional\_tests.h@{funcional\_tests.h}}
+\doxysubsubsection{\texorpdfstring{logisticalFuncionalTest()}{logisticalFuncionalTest()}}
+{\footnotesize\ttfamily \label{funcional__tests_8h_a60914db64bde71b56d69320797266c29} 
+void logistical\+Funcional\+Test (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Executa o teste funcional de Crescimento Logístico. 
+
+
+\begin{DoxyItemize}
+\item Verifica se o sistema atinge o ponto de saturação (capacidade de carga Pmax).
+\end{DoxyItemize}
+
+Executa o teste funcional de Crescimento Logístico.
+
+
+\begin{DoxyItemize}
+\item O teste simula um crescimento logístico, onde a taxa é proporcional ao
+\item valor atual e à capacidade de carga restante (Pmax).
+\item A simulação é executada por um longo período para garantir que o sistema
+\item atinja o ponto de saturação (Pmax). 
+\end{DoxyItemize}
+
+Definition at line \mbox{\hyperlink{funcional__tests_8cpp_source_l00073}{73}} of file \mbox{\hyperlink{funcional__tests_8cpp_source}{funcional\+\_\+tests.\+cpp}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=347pt]{funcional__tests_8h_a60914db64bde71b56d69320797266c29_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=284pt]{funcional__tests_8h_a60914db64bde71b56d69320797266c29_icgraph}
+\end{center}
+\end{figure}
