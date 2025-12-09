@@ -1,0 +1,33 @@
+\doxysection{Iflow.\+h}
+\hypertarget{Iflow_8h_source}{}\label{Iflow_8h_source}\index{include/interface/Iflow.h@{include/interface/Iflow.h}}
+\mbox{\hyperlink{Iflow_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{Iflow_8h_source_l00001}00001\ \textcolor{comment}{/*\ @file\ Iflow.h}}
+\DoxyCodeLine{\Hypertarget{Iflow_8h_source_l00002}00002\ \textcolor{comment}{\ *\ @brief\ Declaração\ da\ interface\ Iflow.}}
+\DoxyCodeLine{\Hypertarget{Iflow_8h_source_l00003}00003\ \textcolor{comment}{\ */}}
+\DoxyCodeLine{\Hypertarget{Iflow_8h_source_l00004}00004\ \textcolor{preprocessor}{\#ifndef\ IFLOW}}
+\DoxyCodeLine{\Hypertarget{Iflow_8h_source_l00005}00005\ \textcolor{preprocessor}{\#define\ IFLOW}}
+\DoxyCodeLine{\Hypertarget{Iflow_8h_source_l00006}00006\ }
+\DoxyCodeLine{\Hypertarget{Iflow_8h_source_l00007}00007\ }
+\DoxyCodeLine{\Hypertarget{Iflow_8h_source_l00008}00008\ \textcolor{preprocessor}{\#include\ <functional>}}
+\DoxyCodeLine{\Hypertarget{Iflow_8h_source_l00009}00009\ \textcolor{preprocessor}{\#include\ <string>}}
+\DoxyCodeLine{\Hypertarget{Iflow_8h_source_l00010}00010\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{Isystem_8h}{Isystem.h}}"{}}}
+\DoxyCodeLine{\Hypertarget{Iflow_8h_source_l00011}00011\ }
+\DoxyCodeLine{\Hypertarget{Iflow_8h_source_l00012}00012\ \textcolor{keyword}{using\ namespace\ }std;}
+\DoxyCodeLine{\Hypertarget{Iflow_8h_source_l00013}00013\ }
+\DoxyCodeLine{\Hypertarget{Iflow_8h_source_l00021}\mbox{\hyperlink{classIflow}{00021}}\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classIflow}{Iflow}}\{}
+\DoxyCodeLine{\Hypertarget{Iflow_8h_source_l00022}00022\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{\Hypertarget{Iflow_8h_source_l00023}\mbox{\hyperlink{classIflow_a5ebada65e521cab2527e02c96ab8aa75}{00023}}\ \ \ \ \ \textcolor{keyword}{virtual}\ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{classIflow_a5ebada65e521cab2527e02c96ab8aa75}{setSource}}(\mbox{\hyperlink{classIsystem}{Isystem}}*\ s1)\ =\ 0;}
+\DoxyCodeLine{\Hypertarget{Iflow_8h_source_l00024}\mbox{\hyperlink{classIflow_ab0039cdf215750e60cfd393951f53ab8}{00024}}\ \ \ \ \ \textcolor{keyword}{virtual}\ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{classIflow_ab0039cdf215750e60cfd393951f53ab8}{setTarget}}(\mbox{\hyperlink{classIsystem}{Isystem}}*\ s2)\ =\ 0;}
+\DoxyCodeLine{\Hypertarget{Iflow_8h_source_l00025}\mbox{\hyperlink{classIflow_a9b469152ff7708c403b4b364adacab4f}{00025}}\ \ \ \ \ \textcolor{keyword}{virtual}\ \mbox{\hyperlink{classIsystem}{Isystem}}*\ \mbox{\hyperlink{classIflow_a9b469152ff7708c403b4b364adacab4f}{getSource}}()\ =\ 0;}
+\DoxyCodeLine{\Hypertarget{Iflow_8h_source_l00026}\mbox{\hyperlink{classIflow_a9877325e3936e22431302a7d76b05967}{00026}}\ \ \ \ \ \textcolor{keyword}{virtual}\ \mbox{\hyperlink{classIsystem}{Isystem}}*\ \mbox{\hyperlink{classIflow_a9877325e3936e22431302a7d76b05967}{getTarget}}()\ =\ 0;}
+\DoxyCodeLine{\Hypertarget{Iflow_8h_source_l00027}\mbox{\hyperlink{classIflow_ad11ef2fc513de49f136983d50a7a593c}{00027}}\ \ \ \ \ \textcolor{keyword}{virtual}\ \textcolor{keywordtype}{string}\ \mbox{\hyperlink{classIflow_ad11ef2fc513de49f136983d50a7a593c}{getNome}}()\ =\ 0;}
+\DoxyCodeLine{\Hypertarget{Iflow_8h_source_l00028}\mbox{\hyperlink{classIflow_a80689715faa30b2d9bbb61d3511c6bb1}{00028}}\ \ \ \ \ \textcolor{keyword}{virtual}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classIflow_a80689715faa30b2d9bbb61d3511c6bb1}{setNome}}(\textcolor{keywordtype}{string}\ nome)\ =\ 0;}
+\DoxyCodeLine{\Hypertarget{Iflow_8h_source_l00029}\mbox{\hyperlink{classIflow_a6fb6859b8de8e44d8350cf57b8e044c4}{00029}}\ \ \ \ \ \textcolor{keyword}{virtual}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classIflow_a6fb6859b8de8e44d8350cf57b8e044c4}{setEquation}}\ (function<\textcolor{keywordtype}{double}(\textcolor{keywordtype}{double})>\ equation)\ =\ 0;}
+\DoxyCodeLine{\Hypertarget{Iflow_8h_source_l00030}\mbox{\hyperlink{classIflow_a2a66f84cec5e29ff5607ee4f913f1ab1}{00030}}\ \ \ \ \ \textcolor{keyword}{virtual}\ \textcolor{keyword}{const}\ function<double(\textcolor{keywordtype}{double})>\&\ \mbox{\hyperlink{classIflow_a2a66f84cec5e29ff5607ee4f913f1ab1}{getEquation}}()\ \textcolor{keyword}{const}\ =\ 0;}
+\DoxyCodeLine{\Hypertarget{Iflow_8h_source_l00031}\mbox{\hyperlink{classIflow_acc3214b8791c6e3979338879d96aefda}{00031}}\ \ \ \ \ \textcolor{keyword}{virtual}\ \textcolor{keywordtype}{double}\ \mbox{\hyperlink{classIflow_acc3214b8791c6e3979338879d96aefda}{evaluate}}()\ =\ 0;}
+\DoxyCodeLine{\Hypertarget{Iflow_8h_source_l00032}00032\ \};}
+\DoxyCodeLine{\Hypertarget{Iflow_8h_source_l00033}00033\ }
+\DoxyCodeLine{\Hypertarget{Iflow_8h_source_l00034}00034\ \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

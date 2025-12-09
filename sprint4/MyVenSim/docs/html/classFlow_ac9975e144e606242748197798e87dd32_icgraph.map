@@ -1,0 +1,5 @@
+<map id="Flow::Flow" name="Flow::Flow">
+<area shape="rect" id="Node000001" title="Construtor padrão. Inicializa o nome como vazio e os ponteiros source, target e equation como nulos." alt="" coords="180,5,271,31"/>
+<area shape="rect" id="Node000002" href="$classFlow.html#a32ea8a3720cbfaf871cd6c982bcf60cd" title="Operador de atribuição (cópia)." alt="" coords="5,5,132,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="166,21,132,21,132,15,166,15"/>
+</map>

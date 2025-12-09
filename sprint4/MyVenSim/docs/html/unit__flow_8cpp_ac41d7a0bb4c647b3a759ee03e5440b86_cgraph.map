@@ -1,0 +1,7 @@
+<map id="test_flow_setGetNome" name="test_flow_setGetNome">
+<area shape="rect" id="Node000001" title="Testa os métodos setNome e getNome." alt="" coords="5,31,176,56"/>
+<area shape="rect" id="Node000002" href="$classFlow.html#a608582dc40f22ffb499f8c844ee8e8ee" title="Obtém o nome do fluxo." alt="" coords="224,5,344,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="176,30,210,25,211,30,177,35"/>
+<area shape="rect" id="Node000003" href="$classFlow.html#a247acd8a02c40ac58b6b3c667c2c1e78" title="Define o nome do fluxo." alt="" coords="225,55,343,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="177,51,211,56,211,61,176,57"/>
+</map>

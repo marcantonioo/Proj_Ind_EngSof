@@ -1,0 +1,9 @@
+<map id="test_flow_constructor_nome" name="test_flow_constructor_nome">
+<area shape="rect" id="Node000001" title="Testa o construtor que recebe um nome." alt="" coords="5,55,211,80"/>
+<area shape="rect" id="Node000002" href="$classFlow.html#a608582dc40f22ffb499f8c844ee8e8ee" title="Obtém o nome do fluxo." alt="" coords="261,5,381,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="163,52,252,31,253,36,164,57"/>
+<area shape="rect" id="Node000003" href="$classFlow.html#a5bed46d419bb63fcf9d7d5a9c9a61610" title="Obtém o sistema de origem (Source)." alt="" coords="259,55,384,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="211,65,245,65,245,70,211,70"/>
+<area shape="rect" id="Node000004" href="$classFlow.html#a3de25de4895144db86a837220c05a462" title="Obtém o sistema de destino (Target)." alt="" coords="261,104,382,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="164,77,253,98,252,103,163,83"/>
+</map>

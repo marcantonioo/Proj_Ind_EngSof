@@ -1,0 +1,15 @@
+<map id="main" name="main">
+<area shape="rect" id="Node000001" title="Função principal de execução do simulador." alt="" coords="5,129,60,155"/>
+<area shape="rect" id="Node000002" href="$classModel.html#ad5578b0bc8a75aa34a3471b8610c9f2b" title="Adiciona um sistema e um fluxo simultaneamente." alt="" coords="129,5,224,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="38,128,64,85,83,61,106,40,116,34,119,38,110,44,87,65,68,88,43,130"/>
+<area shape="rect" id="Node000003" href="$classSystem.html#ac6f5cf5f07a414398ac2ef5843531d1b" title="Obtém o valor atual do sistema." alt="" coords="109,55,245,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="49,127,107,89,121,83,123,87,109,94,52,131"/>
+<area shape="rect" id="Node000004" href="$classModel.html#ac88fa17b0fe57d934596464f844cfa6a" title="Executa a simulação dinâmica do modelo." alt="" coords="131,104,222,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="60,135,117,124,118,130,61,140"/>
+<area shape="rect" id="Node000005" href="$classFlow.html#ab0328a0ed3a7c41d189a5074235eda96" title="Define a equação (função matemática) que calcula a taxa do fluxo." alt="" coords="108,153,245,179"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="61,144,95,150,94,155,60,149"/>
+<area shape="rect" id="Node000006" href="$classFlow.html#a17686d5a9388dab6cbc3d0350f9d7f0a" title="Define o sistema de origem (Source) para este fluxo." alt="" coords="115,203,239,228"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="53,153,109,188,126,195,124,200,107,192,50,157"/>
+<area shape="rect" id="Node000007" href="$classFlow.html#a42d7c4c3910e9753330b81da707335a8" title="Define o sistema de destino (Target) para este fluxo." alt="" coords="117,252,237,277"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="43,154,69,195,88,217,110,237,120,244,117,248,106,241,84,221,65,198,39,157"/>
+</map>
