@@ -1,0 +1,9 @@
+<map id="Model::run" name="Model::run">
+<area shape="rect" id="Node000001" title="Executa a simulação dinâmica do modelo." alt="" coords="279,31,369,56"/>
+<area shape="rect" id="Node000002" href="$src_2main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Função principal de execução do simulador." alt="" coords="142,5,197,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="264,36,196,25,197,20,265,31"/>
+<area shape="rect" id="Node000003" href="$unit__model_8cpp.html#af808eae6e463dba5203219fa22f22e34" title="Testa o método run() da classe Model." alt="" coords="108,55,231,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="266,55,232,60,231,55,265,50"/>
+<area shape="rect" id="Node000004" href="$test_2unit_2main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Função principal que executa todos os testes." alt="" coords="5,55,60,80"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="94,70,60,70,60,65,94,65"/>
+</map>

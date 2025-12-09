@@ -1,0 +1,7 @@
+<map id="test_model_add_system_flow" name="test_model_add_system_flow">
+<area shape="rect" id="Node000001" title="Testa o método add(Isystem*, Iflow*) da classe Model." alt="" coords="5,31,220,56"/>
+<area shape="rect" id="Node000002" href="$classModel.html#ad5578b0bc8a75aa34a3471b8610c9f2b" title="Adiciona um sistema e um fluxo simultaneamente." alt="" coords="289,5,384,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="220,29,275,22,276,27,220,34"/>
+<area shape="rect" id="Node000003" href="$classFlow.html#ab0328a0ed3a7c41d189a5074235eda96" title="Define a equação (função matemática) que calcula a taxa do fluxo." alt="" coords="268,55,405,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="220,52,255,56,254,61,220,57"/>
+</map>

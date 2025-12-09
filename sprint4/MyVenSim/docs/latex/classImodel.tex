@@ -1,0 +1,141 @@
+\doxysection{Imodel Class Reference}
+\hypertarget{classImodel}{}\label{classImodel}\index{Imodel@{Imodel}}
+
+
+Interface que define o comportamento de um modelo (\doxylink{classModel}{Model}).  
+
+
+
+
+{\ttfamily \#include $<$Imodel.\+h$>$}
+
+
+
+Inheritance diagram for Imodel\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=159pt]{classImodel__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Imodel\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=147pt]{classImodel__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual bool \mbox{\hyperlink{classImodel_a4eb0b076151d841db5a6dffb1fbde239}{add}} (\mbox{\hyperlink{classIsystem}{Isystem}} \texorpdfstring{$\ast$}{*}, \mbox{\hyperlink{classIflow}{Iflow}} \texorpdfstring{$\ast$}{*})=0
+\item 
+virtual bool \mbox{\hyperlink{classImodel_acd54a7bd5e2a1c9dfa065e9e5faf9423}{add}} (\mbox{\hyperlink{classIsystem}{Isystem}} \texorpdfstring{$\ast$}{*})=0
+\item 
+virtual bool \mbox{\hyperlink{classImodel_abc658cdf8d65a67e5f129dc32556d023}{add}} (\mbox{\hyperlink{classIflow}{Iflow}} \texorpdfstring{$\ast$}{*})=0
+\item 
+virtual bool \mbox{\hyperlink{classImodel_aaf1e254803b66422b51995ef067597f4}{remove}} (\mbox{\hyperlink{classIsystem}{Isystem}} \texorpdfstring{$\ast$}{*})=0
+\item 
+virtual bool \mbox{\hyperlink{classImodel_acf872e1b20187e989c3b9999d1c18a20}{remove}} (\mbox{\hyperlink{classIflow}{Iflow}} \texorpdfstring{$\ast$}{*})=0
+\item 
+virtual void \mbox{\hyperlink{classImodel_a79507ba263a41c83a10bd93f679ce5c4}{run}} (double inicio, double fim, double ritmo)=0
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Interface que define o comportamento de um modelo (\doxylink{classModel}{Model}). 
+
+A interface \doxylink{classImodel}{Imodel} declara métodos para adicionar e remover sistemas e fluxos, bem como para executar a simulação do modelo ao longo do tempo. 
+
+Definition at line \mbox{\hyperlink{Imodel_8h_source_l00017}{17}} of file \mbox{\hyperlink{Imodel_8h_source}{Imodel.\+h}}.
+
+
+
+\label{doc-func-members}
+\Hypertarget{classImodel_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classImodel_abc658cdf8d65a67e5f129dc32556d023}\index{Imodel@{Imodel}!add@{add}}
+\index{add@{add}!Imodel@{Imodel}}
+\doxysubsubsection{\texorpdfstring{add()}{add()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily \label{classImodel_abc658cdf8d65a67e5f129dc32556d023} 
+virtual bool Imodel\+::add (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classIflow}{Iflow}} \texorpdfstring{$\ast$}{*}}]{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Implemented in \mbox{\hyperlink{classModel_a2e2e58eb0c6600405cf584589c818294}{Model}}.
+
+\Hypertarget{classImodel_acd54a7bd5e2a1c9dfa065e9e5faf9423}\index{Imodel@{Imodel}!add@{add}}
+\index{add@{add}!Imodel@{Imodel}}
+\doxysubsubsection{\texorpdfstring{add()}{add()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily \label{classImodel_acd54a7bd5e2a1c9dfa065e9e5faf9423} 
+virtual bool Imodel\+::add (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classIsystem}{Isystem}} \texorpdfstring{$\ast$}{*}}]{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Implemented in \mbox{\hyperlink{classModel_ab82f34169558736e232003cd65188ae6}{Model}}.
+
+\Hypertarget{classImodel_a4eb0b076151d841db5a6dffb1fbde239}\index{Imodel@{Imodel}!add@{add}}
+\index{add@{add}!Imodel@{Imodel}}
+\doxysubsubsection{\texorpdfstring{add()}{add()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily \label{classImodel_a4eb0b076151d841db5a6dffb1fbde239} 
+virtual bool Imodel\+::add (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classIsystem}{Isystem}} \texorpdfstring{$\ast$}{*}}]{}{, }\item[{\mbox{\hyperlink{classIflow}{Iflow}} \texorpdfstring{$\ast$}{*}}]{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Implemented in \mbox{\hyperlink{classModel_ad5578b0bc8a75aa34a3471b8610c9f2b}{Model}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classImodel_a4eb0b076151d841db5a6dffb1fbde239_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classImodel_acf872e1b20187e989c3b9999d1c18a20}\index{Imodel@{Imodel}!remove@{remove}}
+\index{remove@{remove}!Imodel@{Imodel}}
+\doxysubsubsection{\texorpdfstring{remove()}{remove()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{classImodel_acf872e1b20187e989c3b9999d1c18a20} 
+virtual bool Imodel\+::remove (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classIflow}{Iflow}} \texorpdfstring{$\ast$}{*}}]{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Implemented in \mbox{\hyperlink{classModel_a79e6599071ef3b9f7e7cd8ad19df9bb5}{Model}}.
+
+\Hypertarget{classImodel_aaf1e254803b66422b51995ef067597f4}\index{Imodel@{Imodel}!remove@{remove}}
+\index{remove@{remove}!Imodel@{Imodel}}
+\doxysubsubsection{\texorpdfstring{remove()}{remove()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{classImodel_aaf1e254803b66422b51995ef067597f4} 
+virtual bool Imodel\+::remove (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classIsystem}{Isystem}} \texorpdfstring{$\ast$}{*}}]{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Implemented in \mbox{\hyperlink{classModel_a65182b0d8da2a5ee94ec00d17dda1dc9}{Model}}.
+
+\Hypertarget{classImodel_a79507ba263a41c83a10bd93f679ce5c4}\index{Imodel@{Imodel}!run@{run}}
+\index{run@{run}!Imodel@{Imodel}}
+\doxysubsubsection{\texorpdfstring{run()}{run()}}
+{\footnotesize\ttfamily \label{classImodel_a79507ba263a41c83a10bd93f679ce5c4} 
+virtual void Imodel\+::run (\begin{DoxyParamCaption}\item[{double}]{inicio}{, }\item[{double}]{fim}{, }\item[{double}]{ritmo}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Implemented in \mbox{\hyperlink{classModel_ac88fa17b0fe57d934596464f844cfa6a}{Model}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classImodel_a79507ba263a41c83a10bd93f679ce5c4_icgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+include/interface/\mbox{\hyperlink{Imodel_8h}{Imodel.\+h}}\end{DoxyCompactItemize}

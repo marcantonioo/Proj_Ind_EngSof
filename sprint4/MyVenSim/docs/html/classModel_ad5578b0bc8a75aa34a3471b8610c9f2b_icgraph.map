@@ -1,0 +1,24 @@
+<map id="Model::add" name="Model::add">
+<area shape="rect" id="Node000001" title="Adiciona um sistema e um fluxo simultaneamente." alt="" coords="371,153,465,179"/>
+<area shape="rect" id="Node000002" href="$src_2main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Função principal de execução do simulador." alt="" coords="188,5,243,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="402,142,370,92,348,66,321,44,282,28,243,22,243,16,283,23,324,40,351,62,374,88,407,140"/>
+<area shape="rect" id="Node000003" href="$unit__model_8cpp.html#aa6fa3fd9faeb448edd5d03d10b0b1fd7" title="Testa o método add(Iflow*) da classe Model." alt="" coords="135,55,295,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="393,146,361,118,321,94,291,83,293,78,324,89,364,114,396,142"/>
+<area shape="rect" id="Node000005" href="$unit__model_8cpp.html#a9ac007f7ea457d51576965ade03fe9b9" title="Testa o método add(Isystem*) da classe Model." alt="" coords="125,104,306,129"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="357,152,322,143,274,132,276,127,323,138,359,147"/>
+<area shape="rect" id="Node000006" href="$unit__model_8cpp.html#ab6b510a4cff5de9ed7ccf3938b0e7f05" title="Testa o método add(Isystem*, Iflow*) da classe Model." alt="" coords="108,153,323,179"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="357,169,323,169,323,163,357,163"/>
+<area shape="rect" id="Node000007" href="$unit__model_8cpp.html#a2d71677e700126f65ac1d52fb72d83bc" title="Testa o método remove(Iflow*) da classe Model." alt="" coords="122,203,309,228"/>
+<area shape="poly" id="edge8_Node000001_Node000007" title=" " alt="" coords="358,184,323,193,271,205,270,200,322,187,357,179"/>
+<area shape="rect" id="Node000008" href="$unit__model_8cpp.html#aa3b15bec7dc46fd2a1db83155067a18d" title="Testa o método remove(Isystem*) da classe Model." alt="" coords="112,252,319,277"/>
+<area shape="poly" id="edge10_Node000001_Node000008" title=" " alt="" coords="396,190,363,217,324,242,289,254,287,249,321,237,360,213,392,186"/>
+<area shape="rect" id="Node000009" href="$unit__model_8cpp.html#af808eae6e463dba5203219fa22f22e34" title="Testa o método run() da classe Model." alt="" coords="154,301,277,327"/>
+<area shape="poly" id="edge12_Node000001_Node000009" title=" " alt="" coords="407,192,374,243,351,269,324,291,302,302,278,310,276,304,300,297,321,286,347,265,370,239,402,189"/>
+<area shape="rect" id="Node000004" href="$test_2unit_2main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Função principal que executa todos os testes." alt="" coords="5,179,60,204"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="124,86,110,94,86,113,67,137,42,180,37,177,63,134,83,109,106,89,121,81"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="129,136,109,143,77,161,50,181,47,176,74,157,107,138,127,131"/>
+<area shape="poly" id="edge7_Node000006_Node000004" title=" " alt="" coords="110,183,61,190,60,185,110,178"/>
+<area shape="poly" id="edge9_Node000007_Node000004" title=" " alt="" coords="108,204,60,197,61,192,109,199"/>
+<area shape="poly" id="edge11_Node000008_Node000004" title=" " alt="" coords="132,251,107,242,75,225,49,206,52,202,78,220,109,237,133,246"/>
+<area shape="poly" id="edge13_Node000009_Node000004" title=" " alt="" coords="140,306,107,291,83,271,63,248,38,205,42,203,68,245,87,267,109,286,142,301"/>
+</map>

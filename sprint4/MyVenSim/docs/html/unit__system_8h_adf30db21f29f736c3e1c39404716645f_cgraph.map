@@ -1,0 +1,9 @@
+<map id="test_system_update" name="test_system_update">
+<area shape="rect" id="Node000001" title="Testa o método update da classe System." alt="" coords="5,31,160,56"/>
+<area shape="rect" id="Node000002" href="$classSystem.html#ac6f5cf5f07a414398ac2ef5843531d1b" title="Obtém o valor atual do sistema." alt="" coords="208,5,344,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="160,31,194,26,194,31,161,36"/>
+<area shape="rect" id="Node000003" href="$classSystem.html#a2916e6f8f3edee0eb9301e467d472c89" title="Atualiza o valor do sistema." alt="" coords="214,55,338,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="161,50,200,55,200,61,160,56"/>
+<area shape="rect" id="Node000004" href="$classSystem.html#a985be93d67e277a0f4a448bdc995b315" title="Define um novo valor para o sistema." alt="" coords="392,55,527,80"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="338,65,378,65,378,70,338,70"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="Flow::setNome" name="Flow::setNome">
+<area shape="rect" id="Node000001" title="Define o nome do fluxo." alt="" coords="327,31,445,56"/>
+<area shape="rect" id="Node000002" href="$classFlow.html#a32ea8a3720cbfaf871cd6c982bcf60cd" title="Operador de atribuição (cópia)." alt="" coords="130,5,257,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="313,36,257,29,257,24,314,31"/>
+<area shape="rect" id="Node000003" href="$unit__flow_8cpp.html#ac41d7a0bb4c647b3a759ee03e5440b86" title="Testa os métodos setNome e getNome." alt="" coords="108,55,279,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="314,55,279,59,279,54,313,50"/>
+<area shape="rect" id="Node000004" href="$test_2unit_2main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Função principal que executa todos os testes." alt="" coords="5,55,60,80"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="94,70,60,70,60,65,94,65"/>
+</map>

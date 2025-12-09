@@ -1,0 +1,412 @@
+\doxysection{System Class Reference}
+\hypertarget{classSystem}{}\label{classSystem}\index{System@{System}}
+
+
+Implementação da interface \doxylink{classIsystem}{Isystem} que representa um sistema com valor e nome.  
+
+
+
+
+{\ttfamily \#include $<$System.\+h$>$}
+
+
+
+Inheritance diagram for System\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=159pt]{classSystem__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for System\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=159pt]{classSystem__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classSystem_a0937af9e73b900a1e11c5c62b8a3dddd}{System}} (string \mbox{\hyperlink{classSystem_a0df121c718a4da7b5e0fec4f8701b4bf}{nome}}, double \mbox{\hyperlink{classSystem_a53c2e9945199c052f66b08f817faea4d}{valor}})
+\begin{DoxyCompactList}\small\item\em Construtor que inicializa o nome e o valor do sistema. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classSystem_a5cf90c87a1d538f1a733914e1d68beb2}{System}} (string \mbox{\hyperlink{classSystem_a0df121c718a4da7b5e0fec4f8701b4bf}{nome}})
+\begin{DoxyCompactList}\small\item\em Construtor que inicializa apenas o nome, definindo o valor como 0. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classSystem_a30320b35e1a8845a627c875c31946307}{System}} (double \mbox{\hyperlink{classSystem_a53c2e9945199c052f66b08f817faea4d}{valor}})
+\begin{DoxyCompactList}\small\item\em Construtor que inicializa apenas o valor, definindo o nome como vazio. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classSystem_ae317936c9bcf1374d61745572e0f2f8a}{System}} ()
+\begin{DoxyCompactList}\small\item\em Construtor padrão, inicializa nome como vazio e valor como 0. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classSystem}{System}} \& \mbox{\hyperlink{classSystem_a2947eed5e4c3ed7df2d32137e1c5c338}{operator=}} (\mbox{\hyperlink{classSystem}{System}} \&other)
+\begin{DoxyCompactList}\small\item\em Operador de atribuição (cópia). \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classSystem_a3be70bb338e3f062f821173fd15680d0}{\texorpdfstring{$\sim$}{\string~}\+System}} ()
+\begin{DoxyCompactList}\small\item\em Destrutor da classe \doxylink{classSystem}{System}. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classSystem_a985be93d67e277a0f4a448bdc995b315}{set\+Value}} (double \mbox{\hyperlink{classSystem_a53c2e9945199c052f66b08f817faea4d}{valor}})
+\begin{DoxyCompactList}\small\item\em Define um novo valor para o sistema. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classSystem_ac6f5cf5f07a414398ac2ef5843531d1b}{get\+Value}} ()
+\begin{DoxyCompactList}\small\item\em Obtém o valor atual do sistema. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classSystem_ae9b2583861d1b16e47da30d31b450dd6}{set\+Nome}} (string \mbox{\hyperlink{classSystem_a0df121c718a4da7b5e0fec4f8701b4bf}{nome}})
+\begin{DoxyCompactList}\small\item\em Define um novo nome para o sistema. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{classSystem_a8b9cc75a5971a2e830d0768e90e61b46}{get\+Nome}} ()
+\begin{DoxyCompactList}\small\item\em Obtém o nome do sistema. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classSystem_a2916e6f8f3edee0eb9301e467d472c89}{update}} (double value)
+\begin{DoxyCompactList}\small\item\em Atualiza o valor do sistema. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{classSystem_a0df121c718a4da7b5e0fec4f8701b4bf}{nome}}
+\item 
+double \mbox{\hyperlink{classSystem_a53c2e9945199c052f66b08f817faea4d}{valor}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Implementação da interface \doxylink{classIsystem}{Isystem} que representa um sistema com valor e nome. 
+
+A classe \doxylink{classSystem}{System} implementa os métodos definidos na interface \doxylink{classIsystem}{Isystem}, permitindo definir e obter o valor e nome do sistema, bem como atualizar seu valor. 
+
+Definition at line \mbox{\hyperlink{System_8h_source_l00019}{19}} of file \mbox{\hyperlink{System_8h_source}{System.\+h}}.
+
+
+
+\label{doc-constructors}
+\Hypertarget{classSystem_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classSystem_a0937af9e73b900a1e11c5c62b8a3dddd}\index{System@{System}!System@{System}}
+\index{System@{System}!System@{System}}
+\doxysubsubsection{\texorpdfstring{System()}{System()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+{\footnotesize\ttfamily \label{classSystem_a0937af9e73b900a1e11c5c62b8a3dddd} 
+System\+::\+System (\begin{DoxyParamCaption}\item[{string}]{nome}{, }\item[{double}]{valor}{}\end{DoxyParamCaption})}
+
+
+
+Construtor que inicializa o nome e o valor do sistema. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nome} & O nome do sistema. \\
+\hline
+{\em valor} & O valor inicial do sistema. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line \mbox{\hyperlink{System_8cpp_source_l00015}{15}} of file \mbox{\hyperlink{System_8cpp_source}{System.\+cpp}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=321pt]{classSystem_a0937af9e73b900a1e11c5c62b8a3dddd_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classSystem_a5cf90c87a1d538f1a733914e1d68beb2}\index{System@{System}!System@{System}}
+\index{System@{System}!System@{System}}
+\doxysubsubsection{\texorpdfstring{System()}{System()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+{\footnotesize\ttfamily \label{classSystem_a5cf90c87a1d538f1a733914e1d68beb2} 
+System\+::\+System (\begin{DoxyParamCaption}\item[{string}]{nome}{}\end{DoxyParamCaption})}
+
+
+
+Construtor que inicializa apenas o nome, definindo o valor como 0. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nome} & O nome do sistema. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line \mbox{\hyperlink{System_8cpp_source_l00021}{21}} of file \mbox{\hyperlink{System_8cpp_source}{System.\+cpp}}.
+
+\Hypertarget{classSystem_a30320b35e1a8845a627c875c31946307}\index{System@{System}!System@{System}}
+\index{System@{System}!System@{System}}
+\doxysubsubsection{\texorpdfstring{System()}{System()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+{\footnotesize\ttfamily \label{classSystem_a30320b35e1a8845a627c875c31946307} 
+System\+::\+System (\begin{DoxyParamCaption}\item[{double}]{valor}{}\end{DoxyParamCaption})}
+
+
+
+Construtor que inicializa apenas o valor, definindo o nome como vazio. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em valor} & O valor inicial do sistema. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line \mbox{\hyperlink{System_8cpp_source_l00027}{27}} of file \mbox{\hyperlink{System_8cpp_source}{System.\+cpp}}.
+
+\Hypertarget{classSystem_ae317936c9bcf1374d61745572e0f2f8a}\index{System@{System}!System@{System}}
+\index{System@{System}!System@{System}}
+\doxysubsubsection{\texorpdfstring{System()}{System()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+{\footnotesize\ttfamily \label{classSystem_ae317936c9bcf1374d61745572e0f2f8a} 
+System\+::\+System (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Construtor padrão, inicializa nome como vazio e valor como 0. 
+
+
+
+Definition at line \mbox{\hyperlink{System_8cpp_source_l00032}{32}} of file \mbox{\hyperlink{System_8cpp_source}{System.\+cpp}}.
+
+\Hypertarget{classSystem_a3be70bb338e3f062f821173fd15680d0}\index{System@{System}!````~System@{\texorpdfstring{$\sim$}{\string~}System}}
+\index{````~System@{\texorpdfstring{$\sim$}{\string~}System}!System@{System}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}System()}{\string~System()}}
+{\footnotesize\ttfamily \label{classSystem_a3be70bb338e3f062f821173fd15680d0} 
+System\+::\texorpdfstring{$\sim$}{\string~}\+System (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Destrutor da classe \doxylink{classSystem}{System}. 
+
+
+
+Definition at line \mbox{\hyperlink{System_8cpp_source_l00037}{37}} of file \mbox{\hyperlink{System_8cpp_source}{System.\+cpp}}.
+
+
+
+\label{doc-func-members}
+\Hypertarget{classSystem_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classSystem_a8b9cc75a5971a2e830d0768e90e61b46}\index{System@{System}!getNome@{getNome}}
+\index{getNome@{getNome}!System@{System}}
+\doxysubsubsection{\texorpdfstring{getNome()}{getNome()}}
+{\footnotesize\ttfamily \label{classSystem_a8b9cc75a5971a2e830d0768e90e61b46} 
+string System\+::get\+Nome (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Obtém o nome do sistema. 
+
+\begin{DoxyReturn}{Returns}
+string O nome do sistema. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classIsystem_a8e93a989e5c7a65e578c6f61d90283b2}{Isystem}}.
+
+
+
+Definition at line \mbox{\hyperlink{System_8cpp_source_l00076}{76}} of file \mbox{\hyperlink{System_8cpp_source}{System.\+cpp}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classSystem_a8b9cc75a5971a2e830d0768e90e61b46_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classSystem_ac6f5cf5f07a414398ac2ef5843531d1b}\index{System@{System}!getValue@{getValue}}
+\index{getValue@{getValue}!System@{System}}
+\doxysubsubsection{\texorpdfstring{getValue()}{getValue()}}
+{\footnotesize\ttfamily \label{classSystem_ac6f5cf5f07a414398ac2ef5843531d1b} 
+double System\+::get\+Value (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Obtém o valor atual do sistema. 
+
+\begin{DoxyReturn}{Returns}
+double O valor atual. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classIsystem_abda0e5de7822a6a35f3e6907939624e7}{Isystem}}.
+
+
+
+Definition at line \mbox{\hyperlink{System_8cpp_source_l00068}{68}} of file \mbox{\hyperlink{System_8cpp_source}{System.\+cpp}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classSystem_ac6f5cf5f07a414398ac2ef5843531d1b_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classSystem_a2947eed5e4c3ed7df2d32137e1c5c338}\index{System@{System}!operator=@{operator=}}
+\index{operator=@{operator=}!System@{System}}
+\doxysubsubsection{\texorpdfstring{operator=()}{operator=()}}
+{\footnotesize\ttfamily \label{classSystem_a2947eed5e4c3ed7df2d32137e1c5c338} 
+\mbox{\hyperlink{classSystem}{System}} \& System\+::operator= (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classSystem}{System}} \&}]{other}{}\end{DoxyParamCaption})}
+
+
+
+Operador de atribuição (cópia). 
+
+
+\begin{DoxyItemize}
+\item Copia o nome e o valor do sistema \textquotesingle{}other\textquotesingle{} para o sistema atual. 
+\begin{DoxyParams}{Parameters}
+{\em other} & A referência para o objeto \doxylink{classSystem}{System} a ser copiado. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\doxylink{classSystem}{System}\& Uma referência para o objeto \doxylink{classSystem}{System} atual (this). 
+\end{DoxyReturn}
+
+\end{DoxyItemize}
+
+Definition at line \mbox{\hyperlink{System_8cpp_source_l00045}{45}} of file \mbox{\hyperlink{System_8cpp_source}{System.\+cpp}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=329pt]{classSystem_a2947eed5e4c3ed7df2d32137e1c5c338_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classSystem_ae9b2583861d1b16e47da30d31b450dd6}\index{System@{System}!setNome@{setNome}}
+\index{setNome@{setNome}!System@{System}}
+\doxysubsubsection{\texorpdfstring{setNome()}{setNome()}}
+{\footnotesize\ttfamily \label{classSystem_ae9b2583861d1b16e47da30d31b450dd6} 
+bool System\+::set\+Nome (\begin{DoxyParamCaption}\item[{string}]{nome}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Define um novo nome para o sistema. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nome} & O novo nome a ser atribuído. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool Retorna true se o nome foi atribuído com sucesso. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classIsystem_a6bd66c1dc9976de09a04357c6f214b73}{Isystem}}.
+
+
+
+Definition at line \mbox{\hyperlink{System_8cpp_source_l00083}{83}} of file \mbox{\hyperlink{System_8cpp_source}{System.\+cpp}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classSystem_ae9b2583861d1b16e47da30d31b450dd6_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classSystem_a985be93d67e277a0f4a448bdc995b315}\index{System@{System}!setValue@{setValue}}
+\index{setValue@{setValue}!System@{System}}
+\doxysubsubsection{\texorpdfstring{setValue()}{setValue()}}
+{\footnotesize\ttfamily \label{classSystem_a985be93d67e277a0f4a448bdc995b315} 
+bool System\+::set\+Value (\begin{DoxyParamCaption}\item[{double}]{valor}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Define um novo valor para o sistema. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em valor} & O novo valor a ser atribuído. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool Retorna true se o valor foi atribuído com sucesso. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classIsystem_abfa9270f6341df00fa33bcffc1b59dab}{Isystem}}.
+
+
+
+Definition at line \mbox{\hyperlink{System_8cpp_source_l00059}{59}} of file \mbox{\hyperlink{System_8cpp_source}{System.\+cpp}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classSystem_a985be93d67e277a0f4a448bdc995b315_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classSystem_a2916e6f8f3edee0eb9301e467d472c89}\index{System@{System}!update@{update}}
+\index{update@{update}!System@{System}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily \label{classSystem_a2916e6f8f3edee0eb9301e467d472c89} 
+bool System\+::update (\begin{DoxyParamCaption}\item[{double}]{value}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Atualiza o valor do sistema. 
+
+
+\begin{DoxyItemize}
+\item Este método é um alias para set\+Value(value), usado tipicamente durante a simulação. 
+\begin{DoxyParams}{Parameters}
+{\em value} & O novo valor para atualização. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool Retorna true se a atualização foi bem-\/sucedida. 
+\end{DoxyReturn}
+
+\end{DoxyItemize}
+
+Implements \mbox{\hyperlink{classIsystem_a14ecbcc1dc311e2dc68746efcf978a69}{Isystem}}.
+
+
+
+Definition at line \mbox{\hyperlink{System_8cpp_source_l00091}{91}} of file \mbox{\hyperlink{System_8cpp_source}{System.\+cpp}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=310pt]{classSystem_a2916e6f8f3edee0eb9301e467d472c89_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classSystem_a2916e6f8f3edee0eb9301e467d472c89_icgraph}
+\end{center}
+\end{figure}
+
+
+\label{doc-variable-members}
+\Hypertarget{classSystem_doc-variable-members}
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classSystem_a0df121c718a4da7b5e0fec4f8701b4bf}\index{System@{System}!nome@{nome}}
+\index{nome@{nome}!System@{System}}
+\doxysubsubsection{\texorpdfstring{nome}{nome}}
+{\footnotesize\ttfamily \label{classSystem_a0df121c718a4da7b5e0fec4f8701b4bf} 
+string System\+::nome\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{System_8h_source_l00021}{21}} of file \mbox{\hyperlink{System_8h_source}{System.\+h}}.
+
+\Hypertarget{classSystem_a53c2e9945199c052f66b08f817faea4d}\index{System@{System}!valor@{valor}}
+\index{valor@{valor}!System@{System}}
+\doxysubsubsection{\texorpdfstring{valor}{valor}}
+{\footnotesize\ttfamily \label{classSystem_a53c2e9945199c052f66b08f817faea4d} 
+double System\+::valor\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{System_8h_source_l00022}{22}} of file \mbox{\hyperlink{System_8h_source}{System.\+h}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/\mbox{\hyperlink{System_8h}{System.\+h}}\item 
+src/\mbox{\hyperlink{System_8cpp}{System.\+cpp}}\end{DoxyCompactItemize}

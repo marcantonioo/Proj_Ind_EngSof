@@ -1,0 +1,33 @@
+\doxysection{main.\+cpp}
+\hypertarget{src_2main_8cpp_source}{}\label{src_2main_8cpp_source}\index{src/main.cpp@{src/main.cpp}}
+\mbox{\hyperlink{src_2main_8cpp}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{src_2main_8cpp_source_l00001}00001\ }
+\DoxyCodeLine{\Hypertarget{src_2main_8cpp_source_l00009}00009\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{Model_8h}{../include/Model.h}}"{}}}
+\DoxyCodeLine{\Hypertarget{src_2main_8cpp_source_l00010}00010\ \textcolor{preprocessor}{\#include\ <iostream>}}
+\DoxyCodeLine{\Hypertarget{src_2main_8cpp_source_l00011}00011\ }
+\DoxyCodeLine{\Hypertarget{src_2main_8cpp_source_l00025}\mbox{\hyperlink{src_2main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{00025}}\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{src_2main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}}()\{}
+\DoxyCodeLine{\Hypertarget{src_2main_8cpp_source_l00026}00026\ \ \ \ \ std::cout\ <<\ \textcolor{stringliteral}{"{}Simulador\ de\ Sistemas\ Dinâmicos"{}};}
+\DoxyCodeLine{\Hypertarget{src_2main_8cpp_source_l00027}00027\ }
+\DoxyCodeLine{\Hypertarget{src_2main_8cpp_source_l00028}00028\ \ \ \ \ \mbox{\hyperlink{classModel}{Model}}\ Fabrica;}
+\DoxyCodeLine{\Hypertarget{src_2main_8cpp_source_l00029}00029\ \ \ \ \ \mbox{\hyperlink{classSystem}{System}}*\ parafusos\ =\ \textcolor{keyword}{new}\ \mbox{\hyperlink{classSystem}{System}}(\textcolor{stringliteral}{"{}parafusos"{}},\ 1000);}
+\DoxyCodeLine{\Hypertarget{src_2main_8cpp_source_l00030}00030\ }
+\DoxyCodeLine{\Hypertarget{src_2main_8cpp_source_l00031}00031\ \ \ \ \ \mbox{\hyperlink{classFlow}{Flow}}*\ venda\ =\ \textcolor{keyword}{new}\ \mbox{\hyperlink{classFlow}{Flow}}(\textcolor{stringliteral}{"{}venda"{}});}
+\DoxyCodeLine{\Hypertarget{src_2main_8cpp_source_l00032}00032\ \ \ \ \ venda-\/>\mbox{\hyperlink{classFlow_a17686d5a9388dab6cbc3d0350f9d7f0a}{setSource}}(parafusos);}
+\DoxyCodeLine{\Hypertarget{src_2main_8cpp_source_l00033}00033\ \ \ \ \ venda-\/>\mbox{\hyperlink{classFlow_a42d7c4c3910e9753330b81da707335a8}{setTarget}}(NULL);}
+\DoxyCodeLine{\Hypertarget{src_2main_8cpp_source_l00034}00034\ \ \ \ \ venda-\/>\mbox{\hyperlink{classFlow_ab0328a0ed3a7c41d189a5074235eda96}{setEquation}}([\&](\textcolor{keywordtype}{double})\{\textcolor{keywordflow}{return}\ 10;\});}
+\DoxyCodeLine{\Hypertarget{src_2main_8cpp_source_l00035}00035\ }
+\DoxyCodeLine{\Hypertarget{src_2main_8cpp_source_l00036}00036\ \ \ \ \ \mbox{\hyperlink{classFlow}{Flow}}*\ fabricacao\ =\ \textcolor{keyword}{new}\ \mbox{\hyperlink{classFlow}{Flow}}(\textcolor{stringliteral}{"{}fab"{}});}
+\DoxyCodeLine{\Hypertarget{src_2main_8cpp_source_l00037}00037\ \ \ \ \ fabricacao-\/>\mbox{\hyperlink{classFlow_a17686d5a9388dab6cbc3d0350f9d7f0a}{setSource}}(NULL);}
+\DoxyCodeLine{\Hypertarget{src_2main_8cpp_source_l00038}00038\ \ \ \ \ fabricacao-\/>\mbox{\hyperlink{classFlow_a42d7c4c3910e9753330b81da707335a8}{setTarget}}(parafusos);}
+\DoxyCodeLine{\Hypertarget{src_2main_8cpp_source_l00039}00039\ \ \ \ \ fabricacao-\/>\mbox{\hyperlink{classFlow_ab0328a0ed3a7c41d189a5074235eda96}{setEquation}}([\&](\textcolor{keywordtype}{double})\ \{\textcolor{keywordflow}{return}\ 0.05\ *\ parafusos-\/>\mbox{\hyperlink{classSystem_ac6f5cf5f07a414398ac2ef5843531d1b}{getValue}}();\});}
+\DoxyCodeLine{\Hypertarget{src_2main_8cpp_source_l00040}00040\ }
+\DoxyCodeLine{\Hypertarget{src_2main_8cpp_source_l00041}00041\ \ \ \ \ Fabrica.\mbox{\hyperlink{classModel_ad5578b0bc8a75aa34a3471b8610c9f2b}{add}}(parafusos);}
+\DoxyCodeLine{\Hypertarget{src_2main_8cpp_source_l00042}00042\ \ \ \ \ Fabrica.\mbox{\hyperlink{classModel_ad5578b0bc8a75aa34a3471b8610c9f2b}{add}}(venda);}
+\DoxyCodeLine{\Hypertarget{src_2main_8cpp_source_l00043}00043\ \ \ \ \ Fabrica.\mbox{\hyperlink{classModel_ad5578b0bc8a75aa34a3471b8610c9f2b}{add}}(fabricacao);}
+\DoxyCodeLine{\Hypertarget{src_2main_8cpp_source_l00044}00044\ }
+\DoxyCodeLine{\Hypertarget{src_2main_8cpp_source_l00045}00045\ \ \ \ \ Fabrica.\mbox{\hyperlink{classModel_ac88fa17b0fe57d934596464f844cfa6a}{run}}(0,\ 100,\ 1);}
+\DoxyCodeLine{\Hypertarget{src_2main_8cpp_source_l00046}00046\ \ \ \ \ std::cout\ <<\ endl\ <<\ parafusos-\/>\mbox{\hyperlink{classSystem_ac6f5cf5f07a414398ac2ef5843531d1b}{getValue}}()\ <<\ \textcolor{stringliteral}{"{}\ parafusos"{}};}
+\DoxyCodeLine{\Hypertarget{src_2main_8cpp_source_l00047}00047\ \}}
+
+\end{DoxyCode}

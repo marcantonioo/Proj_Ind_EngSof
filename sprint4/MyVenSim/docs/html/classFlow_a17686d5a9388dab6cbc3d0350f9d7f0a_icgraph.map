@@ -1,0 +1,17 @@
+<map id="Flow::setSource" name="Flow::setSource">
+<area shape="rect" id="Node000001" title="Define o sistema de origem (Source) para este fluxo." alt="" coords="331,112,455,137"/>
+<area shape="rect" id="Node000002" href="$src_2main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Função principal de execução do simulador." alt="" coords="168,5,223,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="366,104,328,73,281,44,251,33,222,25,223,20,253,28,284,40,331,69,369,100"/>
+<area shape="rect" id="Node000003" href="$classFlow.html#a32ea8a3720cbfaf871cd6c982bcf60cd" title="Operador de atribuição (cópia)." alt="" coords="132,55,259,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="334,111,239,83,241,77,336,106"/>
+<area shape="rect" id="Node000004" href="$unit__flow_8cpp.html#aafcc8ce717db297abd6569bb2f9cb606" title="Testa o método evaluate() quando source está definido." alt="" coords="123,105,268,145"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="317,127,268,127,268,122,317,122"/>
+<area shape="rect" id="Node000006" href="$unit__flow_8cpp.html#abb1a3ba9f04a5eb9ac787fa2117d924a" title="Testa o operador de atribuição da classe Flow." alt="" coords="124,169,267,209"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="340,144,259,171,257,166,339,139"/>
+<area shape="rect" id="Node000007" href="$unit__flow_8cpp.html#ad7bbf5c5535ceb180e779bf06eacc301" title="Testa os métodos setSource e getSource com um System real." alt="" coords="108,233,283,259"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="372,150,334,187,284,223,254,236,252,231,281,218,330,183,369,146"/>
+<area shape="rect" id="Node000005" href="$test_2unit_2main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Função principal que executa todos os testes." alt="" coords="5,176,60,201"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="127,152,109,159,61,179,59,174,107,154,125,147"/>
+<area shape="poly" id="edge6_Node000006_Node000005" title=" " alt="" coords="110,191,60,191,60,186,110,186"/>
+<area shape="poly" id="edge8_Node000007_Node000005" title=" " alt="" coords="133,232,107,223,59,203,61,198,109,218,134,227"/>
+</map>

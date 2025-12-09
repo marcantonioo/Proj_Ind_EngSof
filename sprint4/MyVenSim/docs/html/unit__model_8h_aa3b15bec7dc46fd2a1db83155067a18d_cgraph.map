@@ -1,0 +1,7 @@
+<map id="test_model_remove_system" name="test_model_remove_system">
+<area shape="rect" id="Node000001" title="Testa o método remove(Isystem*) da classe Model." alt="" coords="5,31,212,56"/>
+<area shape="rect" id="Node000002" href="$classModel.html#ad5578b0bc8a75aa34a3471b8610c9f2b" title="Adiciona um sistema e um fluxo simultaneamente." alt="" coords="273,5,367,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="212,28,259,23,259,28,213,34"/>
+<area shape="rect" id="Node000003" href="$classModel.html#a65182b0d8da2a5ee94ec00d17dda1dc9" title="Remove e libera a memória de um sistema da coleção." alt="" coords="260,55,380,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="213,52,247,56,246,62,212,58"/>
+</map>

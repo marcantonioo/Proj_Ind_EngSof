@@ -1,0 +1,7 @@
+<map id="test_system_setValue" name="test_system_setValue">
+<area shape="rect" id="Node000001" title="Testa o método setValue da classe System." alt="" coords="5,31,171,56"/>
+<area shape="rect" id="Node000002" href="$classSystem.html#ac6f5cf5f07a414398ac2ef5843531d1b" title="Obtém o valor atual do sistema." alt="" coords="219,5,355,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="170,30,204,26,205,31,171,35"/>
+<area shape="rect" id="Node000003" href="$classSystem.html#a985be93d67e277a0f4a448bdc995b315" title="Define um novo valor para o sistema." alt="" coords="219,55,354,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="171,51,206,55,205,60,170,56"/>
+</map>
