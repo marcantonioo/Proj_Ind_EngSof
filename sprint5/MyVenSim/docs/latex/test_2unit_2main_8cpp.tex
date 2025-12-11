@@ -1,0 +1,106 @@
+\doxysection{test/unit/main.cpp File Reference}
+\hypertarget{test_2unit_2main_8cpp}{}\label{test_2unit_2main_8cpp}\index{test/unit/main.cpp@{test/unit/main.cpp}}
+
+
+Arquivo principal que executa todos os testes unitários de \doxylink{classSystem}{System}, \doxylink{classFlow}{Flow} e \doxylink{classModel}{Model}.  
+
+
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include "{}unit\+\_\+system.\+h"{}}\newline
+{\ttfamily \#include "{}unit\+\_\+flow.\+h"{}}\newline
+{\ttfamily \#include "{}unit\+\_\+model.\+h"{}}\newline
+Include dependency graph for main.\+cpp\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{test_2unit_2main_8cpp__incl}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{test_2unit_2main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}} ()
+\begin{DoxyCompactList}\small\item\em Função principal que executa todos os testes. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Arquivo principal que executa todos os testes unitários de \doxylink{classSystem}{System}, \doxylink{classFlow}{Flow} e \doxylink{classModel}{Model}. 
+
+Este arquivo inclui os headers de todos os testes unitários e executa cada função de teste, exibindo mensagens de sucesso no console. 
+
+Definition in file \mbox{\hyperlink{test_2unit_2main_8cpp_source}{main.\+cpp}}.
+
+
+
+\label{doc-func-members}
+\Hypertarget{test_2unit_2main_8cpp_doc-func-members}
+\doxysubsection{Function Documentation}
+\Hypertarget{test_2unit_2main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}\index{main.cpp@{main.cpp}!main@{main}}
+\index{main@{main}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily \label{test_2unit_2main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4} 
+int main (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Função principal que executa todos os testes. 
+
+Chama cada função de teste de \doxylink{classSystem}{System}, \doxylink{classFlow}{Flow} e \doxylink{classModel}{Model} em sequência.
+
+\begin{DoxyReturn}{Returns}
+int Retorna 0 se todos os testes forem executados com sucesso. 
+\end{DoxyReturn}
+--- Testes de \doxylink{classSystem}{System} ---
+
+\texorpdfstring{$<$}{<} Testa o construtor default do \doxylink{classSystem}{System}
+
+\texorpdfstring{$<$}{<} Testa o método set\+Value
+
+\texorpdfstring{$<$}{<} Testa o método set\+Nome
+
+\texorpdfstring{$<$}{<} Testa o método update
+
+--- Testes de \doxylink{classFlow}{Flow} ---
+
+\texorpdfstring{$<$}{<} Testa o construtor default
+
+\texorpdfstring{$<$}{<} Testa o construtor com nome
+
+\texorpdfstring{$<$}{<} Testa set\+Nome/get\+Nome
+
+\texorpdfstring{$<$}{<} Testa set\+Source/get\+Source
+
+\texorpdfstring{$<$}{<} Testa set\+Target/get\+Target
+
+\texorpdfstring{$<$}{<} Testa set\+Equation/get\+Equation
+
+\texorpdfstring{$<$}{<} Testa evaluate() com source real
+
+\texorpdfstring{$<$}{<} Testa evaluate() sem source
+
+\texorpdfstring{$<$}{<} Testa operador de atribuição
+
+--- Testes de \doxylink{classModel}{Model} ---
+
+\texorpdfstring{$<$}{<} Testa add(\+Isystem\texorpdfstring{$\ast$}{*})
+
+\texorpdfstring{$<$}{<} Testa add(\+Iflow\texorpdfstring{$\ast$}{*})
+
+\texorpdfstring{$<$}{<} Testa add(\+Isystem\texorpdfstring{$\ast$}{*}, Iflow\texorpdfstring{$\ast$}{*})
+
+\texorpdfstring{$<$}{<} Testa remove(\+Isystem\texorpdfstring{$\ast$}{*})
+
+\texorpdfstring{$<$}{<} Testa remove(\+Iflow\texorpdfstring{$\ast$}{*})
+
+\texorpdfstring{$<$}{<} Teste básico de run()
+
+Definition at line \mbox{\hyperlink{test_2unit_2main_8cpp_source_l00027}{27}} of file \mbox{\hyperlink{test_2unit_2main_8cpp_source}{main.\+cpp}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{test_2unit_2main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph}
+\end{center}
+\end{figure}

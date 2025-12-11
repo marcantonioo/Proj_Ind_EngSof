@@ -1,0 +1,22 @@
+<map id="src/Flow.cpp" name="src/Flow.cpp">
+<area shape="rect" id="Node000001" title="Implementação da classe Flow que representa um fluxo entre dois sistemas." alt="" coords="213,5,316,31"/>
+<area shape="rect" id="Node000002" href="$flow_8h.html" title="Declaração da classe Flow que implementa a interface Iflow." alt="" coords="143,79,266,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="257,33,225,70,221,66,253,29"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="291,79,359,104"/>
+<area shape="poly" id="edge12_Node000001_Node000008" title=" " alt="" coords="277,29,308,66,304,70,273,33"/>
+<area shape="rect" id="Node000003" href="$Iflow_8h.html" title="Interface que define o comportamento de um fluxo (Flow)." alt="" coords="40,152,167,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="190,106,133,146,130,142,187,102"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="5,225,92,251"/>
+<area shape="poly" id="edge9_Node000002_Node000004" title=" " alt="" coords="144,98,112,104,81,115,52,131,30,153,24,167,24,182,36,212,31,214,19,183,19,166,25,151,49,127,79,110,111,99,143,93"/>
+<area shape="rect" id="Node000005" href="$Isystem_8h.html" title="Interface que define o comportamento de um sistema (System)." alt="" coords="161,225,248,251"/>
+<area shape="poly" id="edge11_Node000002_Node000005" title=" " alt="" coords="207,104,207,212,202,212,202,104"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="257,299,315,324"/>
+<area shape="poly" id="edge10_Node000002_Node000006" title=" " alt="" coords="265,102,306,120,324,133,339,151,347,168,350,187,343,225,326,260,307,289,302,286,321,258,338,223,344,187,342,170,334,153,321,137,303,124,263,107"/>
+<area shape="rect" id="Node000007" href="$System_8h.html" title="Declaração da classe System que implementa a interface Isystem." alt="" coords="242,152,325,177"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="219,102,262,141,259,145,216,106"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="96,179,68,216,64,213,92,176"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="121,175,178,215,175,219,118,180"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="219,249,264,288,261,292,216,253"/>
+<area shape="poly" id="edge8_Node000007_Node000005" title=" " alt="" coords="272,179,229,218,226,214,269,175"/>
+<area shape="poly" id="edge7_Node000007_Node000006" title=" " alt="" coords="286,178,288,285,283,285,281,178"/>
+</map>

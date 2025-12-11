@@ -1,0 +1,9 @@
+<map id="test_flow_setGetSource" name="test_flow_setGetSource">
+<area shape="rect" id="Node000001" title="Testa os métodos setSource e getSource com um System real." alt="" coords="5,55,180,80"/>
+<area shape="rect" id="Node000002" href="$classFlow.html#a5bed46d419bb63fcf9d7d5a9c9a61610" title="Obtém o sistema de origem (Source)." alt="" coords="233,5,358,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="145,52,229,31,230,37,146,57"/>
+<area shape="rect" id="Node000003" href="$classFlow.html#a17686d5a9388dab6cbc3d0350f9d7f0a" title="Define o sistema de origem (Source) para este fluxo." alt="" coords="233,55,357,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="181,65,220,65,220,70,181,70"/>
+<area shape="rect" id="Node000004" href="$classSystem.html#a985be93d67e277a0f4a448bdc995b315" title="Define um novo valor para o sistema." alt="" coords="228,104,363,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="146,77,230,98,229,103,145,83"/>
+</map>

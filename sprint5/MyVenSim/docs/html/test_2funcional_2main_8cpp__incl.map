@@ -1,0 +1,31 @@
+<map id="test/funcional/main.cpp" name="test/funcional/main.cpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="206,5,381,31"/>
+<area shape="rect" id="Node000002" href="$funcional__tests_8h.html" title="Declarações das funções de testes funcionais para o simulador VenSim." alt="" coords="5,79,139,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="259,33,121,77,120,72,257,28"/>
+<area shape="rect" id="Node000003" href="$Model_8h.html" title="Declaração da classe Model que implementa a interface Imodel." alt="" coords="163,79,312,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="286,33,257,69,253,66,282,29"/>
+<area shape="rect" id="Node000009" href="$System_8h.html" title="Declaração da classe System que implementa a interface Isystem." alt="" coords="429,225,587,251"/>
+<area shape="poly" id="edge11_Node000001_Node000009" title=" " alt="" coords="307,29,431,150,490,213,486,217,427,154,304,33"/>
+<area shape="rect" id="Node000010" href="$flow_8h.html" title="Declaração da classe Flow que implementa a interface Iflow." alt="" coords="282,152,417,177"/>
+<area shape="poly" id="edge14_Node000001_Node000010" title=" " alt="" coords="302,30,326,78,346,138,341,139,322,80,298,32"/>
+<area shape="rect" id="Node000004" href="$Iflow_8h.html" title="Interface que define o comportamento de um fluxo (Flow)." alt="" coords="125,225,251,251"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="238,105,232,138,221,178,204,215,199,212,216,176,227,137,233,104"/>
+<area shape="rect" id="Node000006" href="$Isystem_8h.html" title="Interface que define o comportamento de um sistema (System)." alt="" coords="147,299,234,324"/>
+<area shape="poly" id="edge7_Node000003_Node000006" title=" " alt="" coords="178,107,104,127,74,140,55,154,47,173,48,192,56,211,71,230,113,264,156,290,153,295,109,268,68,234,52,214,43,193,42,172,51,150,71,135,102,122,177,102"/>
+<area shape="rect" id="Node000008" href="$Imodel_8h.html" title="Interface que define o comportamento de um modelo (Model)." alt="" coords="65,152,207,177"/>
+<area shape="poly" id="edge8_Node000003_Node000008" title=" " alt="" coords="223,106,165,146,162,142,220,102"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="263,299,350,324"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="208,248,277,289,274,294,206,253"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="191,251,192,285,187,285,186,251"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="361,372,420,397"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="224,322,349,366,347,371,222,327"/>
+<area shape="poly" id="edge9_Node000008_Node000004" title=" " alt="" coords="147,176,174,213,169,216,142,179"/>
+<area shape="poly" id="edge10_Node000008_Node000006" title=" " alt="" coords="130,179,115,212,112,231,116,250,133,272,156,290,153,294,129,276,111,252,106,231,110,210,126,176"/>
+<area shape="poly" id="edge13_Node000009_Node000006" title=" " alt="" coords="458,253,248,300,247,295,456,248"/>
+<area shape="poly" id="edge12_Node000009_Node000007" title=" " alt="" coords="500,253,411,363,407,360,496,249"/>
+<area shape="poly" id="edge15_Node000010_Node000004" title=" " alt="" coords="324,180,228,222,226,217,322,175"/>
+<area shape="poly" id="edge17_Node000010_Node000005" title=" " alt="" coords="348,179,317,286,311,285,343,177"/>
+<area shape="poly" id="edge19_Node000010_Node000006" title=" " alt="" coords="340,180,266,253,218,292,215,288,262,249,336,176"/>
+<area shape="poly" id="edge18_Node000010_Node000007" title=" " alt="" coords="354,177,389,358,383,359,349,178"/>
+<area shape="poly" id="edge16_Node000010_Node000009" title=" " alt="" coords="376,175,471,217,469,222,374,180"/>
+</map>

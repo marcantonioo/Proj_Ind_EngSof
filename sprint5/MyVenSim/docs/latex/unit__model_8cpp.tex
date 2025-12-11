@@ -1,0 +1,219 @@
+\doxysection{test/unit/unit\+\_\+model.cpp File Reference}
+\hypertarget{unit__model_8cpp}{}\label{unit__model_8cpp}\index{test/unit/unit\_model.cpp@{test/unit/unit\_model.cpp}}
+
+
+Implementação dos testes unitários da classe \doxylink{classModel}{Model}.  
+
+
+{\ttfamily \#include $<$cassert$>$}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include "{}../../include/interface/\+Imodel.\+h"{}}\newline
+{\ttfamily \#include "{}../../include/interface/\+Isystem.\+h"{}}\newline
+{\ttfamily \#include "{}../../include/interface/\+Iflow.\+h"{}}\newline
+{\ttfamily \#include "{}../../include/\+System.\+h"{}}\newline
+{\ttfamily \#include "{}../../include/flow.\+h"{}}\newline
+{\ttfamily \#include "{}../../include/\+Model.\+h"{}}\newline
+Include dependency graph for unit\+\_\+model.\+cpp\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{unit__model_8cpp__incl}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{unit__model_8cpp_a9ac007f7ea457d51576965ade03fe9b9}{test\+\_\+model\+\_\+add\+\_\+system}} ()
+\begin{DoxyCompactList}\small\item\em Testa o método add(\+Isystem\texorpdfstring{$\ast$}{*}) da classe \doxylink{classModel}{Model}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{unit__model_8cpp_aa6fa3fd9faeb448edd5d03d10b0b1fd7}{test\+\_\+model\+\_\+add\+\_\+flow}} ()
+\begin{DoxyCompactList}\small\item\em Testa o método add(\+Iflow\texorpdfstring{$\ast$}{*}) da classe \doxylink{classModel}{Model}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{unit__model_8cpp_ab6b510a4cff5de9ed7ccf3938b0e7f05}{test\+\_\+model\+\_\+add\+\_\+system\+\_\+flow}} ()
+\begin{DoxyCompactList}\small\item\em Testa o método add(\+Isystem\texorpdfstring{$\ast$}{*}, Iflow\texorpdfstring{$\ast$}{*}) da classe \doxylink{classModel}{Model}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{unit__model_8cpp_aa3b15bec7dc46fd2a1db83155067a18d}{test\+\_\+model\+\_\+remove\+\_\+system}} ()
+\begin{DoxyCompactList}\small\item\em Testa o método remove(\+Isystem\texorpdfstring{$\ast$}{*}) da classe \doxylink{classModel}{Model}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{unit__model_8cpp_a2d71677e700126f65ac1d52fb72d83bc}{test\+\_\+model\+\_\+remove\+\_\+flow}} ()
+\begin{DoxyCompactList}\small\item\em Testa o método remove(\+Iflow\texorpdfstring{$\ast$}{*}) da classe \doxylink{classModel}{Model}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{unit__model_8cpp_af808eae6e463dba5203219fa22f22e34}{test\+\_\+model\+\_\+run}} ()
+\begin{DoxyCompactList}\small\item\em Testa o método run() da classe \doxylink{classModel}{Model}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Implementação dos testes unitários da classe \doxylink{classModel}{Model}. 
+
+Este arquivo contém a implementação das funções que testam os métodos da classe \doxylink{classModel}{Model}, incluindo adição e remoção de Systems e Flows, bem como o método run(). Cada função utiliza assert() para validar o comportamento esperado. 
+
+Definition in file \mbox{\hyperlink{unit__model_8cpp_source}{unit\+\_\+model.\+cpp}}.
+
+
+
+\label{doc-func-members}
+\Hypertarget{unit__model_8cpp_doc-func-members}
+\doxysubsection{Function Documentation}
+\Hypertarget{unit__model_8cpp_aa6fa3fd9faeb448edd5d03d10b0b1fd7}\index{unit\_model.cpp@{unit\_model.cpp}!test\_model\_add\_flow@{test\_model\_add\_flow}}
+\index{test\_model\_add\_flow@{test\_model\_add\_flow}!unit\_model.cpp@{unit\_model.cpp}}
+\doxysubsubsection{\texorpdfstring{test\_model\_add\_flow()}{test\_model\_add\_flow()}}
+{\footnotesize\ttfamily \label{unit__model_8cpp_aa6fa3fd9faeb448edd5d03d10b0b1fd7} 
+void test\+\_\+model\+\_\+add\+\_\+flow (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Testa o método add(\+Iflow\texorpdfstring{$\ast$}{*}) da classe \doxylink{classModel}{Model}. 
+
+Verifica se é possível adicionar um \doxylink{classFlow}{Flow} corretamente. 
+
+Definition at line \mbox{\hyperlink{unit__model_8cpp_source_l00045}{45}} of file \mbox{\hyperlink{unit__model_8cpp_source}{unit\+\_\+model.\+cpp}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=339pt]{unit__model_8cpp_aa6fa3fd9faeb448edd5d03d10b0b1fd7_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=277pt]{unit__model_8cpp_aa6fa3fd9faeb448edd5d03d10b0b1fd7_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{unit__model_8cpp_a9ac007f7ea457d51576965ade03fe9b9}\index{unit\_model.cpp@{unit\_model.cpp}!test\_model\_add\_system@{test\_model\_add\_system}}
+\index{test\_model\_add\_system@{test\_model\_add\_system}!unit\_model.cpp@{unit\_model.cpp}}
+\doxysubsubsection{\texorpdfstring{test\_model\_add\_system()}{test\_model\_add\_system()}}
+{\footnotesize\ttfamily \label{unit__model_8cpp_a9ac007f7ea457d51576965ade03fe9b9} 
+void test\+\_\+model\+\_\+add\+\_\+system (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Testa o método add(\+Isystem\texorpdfstring{$\ast$}{*}) da classe \doxylink{classModel}{Model}. 
+
+Verifica se é possível adicionar múltiplos Systems corretamente. 
+
+Definition at line \mbox{\hyperlink{unit__model_8cpp_source_l00028}{28}} of file \mbox{\hyperlink{unit__model_8cpp_source}{unit\+\_\+model.\+cpp}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=323pt]{unit__model_8cpp_a9ac007f7ea457d51576965ade03fe9b9_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=293pt]{unit__model_8cpp_a9ac007f7ea457d51576965ade03fe9b9_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{unit__model_8cpp_ab6b510a4cff5de9ed7ccf3938b0e7f05}\index{unit\_model.cpp@{unit\_model.cpp}!test\_model\_add\_system\_flow@{test\_model\_add\_system\_flow}}
+\index{test\_model\_add\_system\_flow@{test\_model\_add\_system\_flow}!unit\_model.cpp@{unit\_model.cpp}}
+\doxysubsubsection{\texorpdfstring{test\_model\_add\_system\_flow()}{test\_model\_add\_system\_flow()}}
+{\footnotesize\ttfamily \label{unit__model_8cpp_ab6b510a4cff5de9ed7ccf3938b0e7f05} 
+void test\+\_\+model\+\_\+add\+\_\+system\+\_\+flow (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Testa o método add(\+Isystem\texorpdfstring{$\ast$}{*}, Iflow\texorpdfstring{$\ast$}{*}) da classe \doxylink{classModel}{Model}. 
+
+Verifica se é possível adicionar simultaneamente um \doxylink{classSystem}{System} e um \doxylink{classFlow}{Flow}. 
+
+Definition at line \mbox{\hyperlink{unit__model_8cpp_source_l00059}{59}} of file \mbox{\hyperlink{unit__model_8cpp_source}{unit\+\_\+model.\+cpp}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{unit__model_8cpp_ab6b510a4cff5de9ed7ccf3938b0e7f05_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=318pt]{unit__model_8cpp_ab6b510a4cff5de9ed7ccf3938b0e7f05_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{unit__model_8cpp_a2d71677e700126f65ac1d52fb72d83bc}\index{unit\_model.cpp@{unit\_model.cpp}!test\_model\_remove\_flow@{test\_model\_remove\_flow}}
+\index{test\_model\_remove\_flow@{test\_model\_remove\_flow}!unit\_model.cpp@{unit\_model.cpp}}
+\doxysubsubsection{\texorpdfstring{test\_model\_remove\_flow()}{test\_model\_remove\_flow()}}
+{\footnotesize\ttfamily \label{unit__model_8cpp_a2d71677e700126f65ac1d52fb72d83bc} 
+void test\+\_\+model\+\_\+remove\+\_\+flow (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Testa o método remove(\+Iflow\texorpdfstring{$\ast$}{*}) da classe \doxylink{classModel}{Model}. 
+
+Verifica se um \doxylink{classFlow}{Flow} adicionado pode ser removido corretamente. 
+
+Definition at line \mbox{\hyperlink{unit__model_8cpp_source_l00088}{88}} of file \mbox{\hyperlink{unit__model_8cpp_source}{unit\+\_\+model.\+cpp}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=346pt]{unit__model_8cpp_a2d71677e700126f65ac1d52fb72d83bc_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=297pt]{unit__model_8cpp_a2d71677e700126f65ac1d52fb72d83bc_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{unit__model_8cpp_aa3b15bec7dc46fd2a1db83155067a18d}\index{unit\_model.cpp@{unit\_model.cpp}!test\_model\_remove\_system@{test\_model\_remove\_system}}
+\index{test\_model\_remove\_system@{test\_model\_remove\_system}!unit\_model.cpp@{unit\_model.cpp}}
+\doxysubsubsection{\texorpdfstring{test\_model\_remove\_system()}{test\_model\_remove\_system()}}
+{\footnotesize\ttfamily \label{unit__model_8cpp_aa3b15bec7dc46fd2a1db83155067a18d} 
+void test\+\_\+model\+\_\+remove\+\_\+system (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Testa o método remove(\+Isystem\texorpdfstring{$\ast$}{*}) da classe \doxylink{classModel}{Model}. 
+
+Verifica se um \doxylink{classSystem}{System} adicionado pode ser removido corretamente. 
+
+Definition at line \mbox{\hyperlink{unit__model_8cpp_source_l00074}{74}} of file \mbox{\hyperlink{unit__model_8cpp_source}{unit\+\_\+model.\+cpp}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{unit__model_8cpp_aa3b15bec7dc46fd2a1db83155067a18d_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=312pt]{unit__model_8cpp_aa3b15bec7dc46fd2a1db83155067a18d_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{unit__model_8cpp_af808eae6e463dba5203219fa22f22e34}\index{unit\_model.cpp@{unit\_model.cpp}!test\_model\_run@{test\_model\_run}}
+\index{test\_model\_run@{test\_model\_run}!unit\_model.cpp@{unit\_model.cpp}}
+\doxysubsubsection{\texorpdfstring{test\_model\_run()}{test\_model\_run()}}
+{\footnotesize\ttfamily \label{unit__model_8cpp_af808eae6e463dba5203219fa22f22e34} 
+void test\+\_\+model\+\_\+run (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Testa o método run() da classe \doxylink{classModel}{Model}. 
+
+Apenas verifica se a execução do run() não causa crash. 
+
+Definition at line \mbox{\hyperlink{unit__model_8cpp_source_l00102}{102}} of file \mbox{\hyperlink{unit__model_8cpp_source}{unit\+\_\+model.\+cpp}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=311pt]{unit__model_8cpp_af808eae6e463dba5203219fa22f22e34_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=249pt]{unit__model_8cpp_af808eae6e463dba5203219fa22f22e34_icgraph}
+\end{center}
+\end{figure}

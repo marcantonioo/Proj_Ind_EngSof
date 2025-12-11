@@ -1,0 +1,307 @@
+\doxysection{test/unit/unit\+\_\+flow.cpp File Reference}
+\hypertarget{unit__flow_8cpp}{}\label{unit__flow_8cpp}\index{test/unit/unit\_flow.cpp@{test/unit/unit\_flow.cpp}}
+
+
+Implementação dos testes unitários da classe \doxylink{classFlow}{Flow}.  
+
+
+{\ttfamily \#include $<$cassert$>$}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include "{}../../include/interface/\+Iflow.\+h"{}}\newline
+{\ttfamily \#include "{}../../include/interface/\+Isystem.\+h"{}}\newline
+{\ttfamily \#include "{}../../include/\+System.\+h"{}}\newline
+{\ttfamily \#include "{}../../include/flow.\+h"{}}\newline
+Include dependency graph for unit\+\_\+flow.\+cpp\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{unit__flow_8cpp__incl}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{unit__flow_8cpp_aacaff361bed2bbd13928c8ac2e548cf8}{test\+\_\+flow\+\_\+constructor\+\_\+default}} ()
+\begin{DoxyCompactList}\small\item\em Testa o construtor default da classe \doxylink{classFlow}{Flow}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{unit__flow_8cpp_a6ef50fed9ab27763d33ba7ce9296327f}{test\+\_\+flow\+\_\+constructor\+\_\+nome}} ()
+\begin{DoxyCompactList}\small\item\em Testa o construtor que recebe um nome. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{unit__flow_8cpp_ac41d7a0bb4c647b3a759ee03e5440b86}{test\+\_\+flow\+\_\+set\+Get\+Nome}} ()
+\begin{DoxyCompactList}\small\item\em Testa os métodos set\+Nome e get\+Nome. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{unit__flow_8cpp_ad7bbf5c5535ceb180e779bf06eacc301}{test\+\_\+flow\+\_\+set\+Get\+Source}} ()
+\begin{DoxyCompactList}\small\item\em Testa os métodos set\+Source e get\+Source com um \doxylink{classSystem}{System} real. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{unit__flow_8cpp_a83378ed492ea432fc69ba49a4e2483f4}{test\+\_\+flow\+\_\+set\+Get\+Target}} ()
+\begin{DoxyCompactList}\small\item\em Testa os métodos set\+Target e get\+Target com um \doxylink{classSystem}{System} real. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{unit__flow_8cpp_a0b6cbea222e33a481993b8f10bc0855a}{test\+\_\+flow\+\_\+set\+Get\+Equation}} ()
+\begin{DoxyCompactList}\small\item\em Testa os métodos set\+Equation e get\+Equation. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{unit__flow_8cpp_aafcc8ce717db297abd6569bb2f9cb606}{test\+\_\+flow\+\_\+evaluate\+\_\+with\+\_\+source}} ()
+\begin{DoxyCompactList}\small\item\em Testa o método evaluate() quando source está definido. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{unit__flow_8cpp_a2f5906857907a09bc4421cc35dab6ec8}{test\+\_\+flow\+\_\+evaluate\+\_\+without\+\_\+source}} ()
+\begin{DoxyCompactList}\small\item\em Testa o método evaluate() quando source não está definido. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{unit__flow_8cpp_abb1a3ba9f04a5eb9ac787fa2117d924a}{test\+\_\+flow\+\_\+operator\+\_\+assignment}} ()
+\begin{DoxyCompactList}\small\item\em Testa o operador de atribuição da classe \doxylink{classFlow}{Flow}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Implementação dos testes unitários da classe \doxylink{classFlow}{Flow}. 
+
+Este arquivo contém a implementação de todas as funções que testam os métodos da classe \doxylink{classFlow}{Flow}, incluindo construtores, getters, setters, evaluate() e operador de atribuição. Cada função utiliza assert() para validar o comportamento esperado. 
+
+Definition in file \mbox{\hyperlink{unit__flow_8cpp_source}{unit\+\_\+flow.\+cpp}}.
+
+
+
+\label{doc-func-members}
+\Hypertarget{unit__flow_8cpp_doc-func-members}
+\doxysubsection{Function Documentation}
+\Hypertarget{unit__flow_8cpp_aacaff361bed2bbd13928c8ac2e548cf8}\index{unit\_flow.cpp@{unit\_flow.cpp}!test\_flow\_constructor\_default@{test\_flow\_constructor\_default}}
+\index{test\_flow\_constructor\_default@{test\_flow\_constructor\_default}!unit\_flow.cpp@{unit\_flow.cpp}}
+\doxysubsubsection{\texorpdfstring{test\_flow\_constructor\_default()}{test\_flow\_constructor\_default()}}
+{\footnotesize\ttfamily \label{unit__flow_8cpp_aacaff361bed2bbd13928c8ac2e548cf8} 
+void test\+\_\+flow\+\_\+constructor\+\_\+default (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Testa o construtor default da classe \doxylink{classFlow}{Flow}. 
+
+Verifica se source e target são nullptr e se nome é vazio. 
+
+Definition at line \mbox{\hyperlink{unit__flow_8cpp_source_l00025}{25}} of file \mbox{\hyperlink{unit__flow_8cpp_source}{unit\+\_\+flow.\+cpp}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=331pt]{unit__flow_8cpp_aacaff361bed2bbd13928c8ac2e548cf8_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=278pt]{unit__flow_8cpp_aacaff361bed2bbd13928c8ac2e548cf8_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{unit__flow_8cpp_a6ef50fed9ab27763d33ba7ce9296327f}\index{unit\_flow.cpp@{unit\_flow.cpp}!test\_flow\_constructor\_nome@{test\_flow\_constructor\_nome}}
+\index{test\_flow\_constructor\_nome@{test\_flow\_constructor\_nome}!unit\_flow.cpp@{unit\_flow.cpp}}
+\doxysubsubsection{\texorpdfstring{test\_flow\_constructor\_nome()}{test\_flow\_constructor\_nome()}}
+{\footnotesize\ttfamily \label{unit__flow_8cpp_a6ef50fed9ab27763d33ba7ce9296327f} 
+void test\+\_\+flow\+\_\+constructor\+\_\+nome (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Testa o construtor que recebe um nome. 
+
+Verifica se o nome foi atribuído corretamente e se source e target são nullptr. 
+
+Definition at line \mbox{\hyperlink{unit__flow_8cpp_source_l00037}{37}} of file \mbox{\hyperlink{unit__flow_8cpp_source}{unit\+\_\+flow.\+cpp}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{unit__flow_8cpp_a6ef50fed9ab27763d33ba7ce9296327f_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=311pt]{unit__flow_8cpp_a6ef50fed9ab27763d33ba7ce9296327f_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{unit__flow_8cpp_aafcc8ce717db297abd6569bb2f9cb606}\index{unit\_flow.cpp@{unit\_flow.cpp}!test\_flow\_evaluate\_with\_source@{test\_flow\_evaluate\_with\_source}}
+\index{test\_flow\_evaluate\_with\_source@{test\_flow\_evaluate\_with\_source}!unit\_flow.cpp@{unit\_flow.cpp}}
+\doxysubsubsection{\texorpdfstring{test\_flow\_evaluate\_with\_source()}{test\_flow\_evaluate\_with\_source()}}
+{\footnotesize\ttfamily \label{unit__flow_8cpp_aafcc8ce717db297abd6569bb2f9cb606} 
+void test\+\_\+flow\+\_\+evaluate\+\_\+with\+\_\+source (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Testa o método evaluate() quando source está definido. 
+
+
+
+Definition at line \mbox{\hyperlink{unit__flow_8cpp_source_l00091}{91}} of file \mbox{\hyperlink{unit__flow_8cpp_source}{unit\+\_\+flow.\+cpp}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=328pt]{unit__flow_8cpp_aafcc8ce717db297abd6569bb2f9cb606_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=266pt]{unit__flow_8cpp_aafcc8ce717db297abd6569bb2f9cb606_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{unit__flow_8cpp_a2f5906857907a09bc4421cc35dab6ec8}\index{unit\_flow.cpp@{unit\_flow.cpp}!test\_flow\_evaluate\_without\_source@{test\_flow\_evaluate\_without\_source}}
+\index{test\_flow\_evaluate\_without\_source@{test\_flow\_evaluate\_without\_source}!unit\_flow.cpp@{unit\_flow.cpp}}
+\doxysubsubsection{\texorpdfstring{test\_flow\_evaluate\_without\_source()}{test\_flow\_evaluate\_without\_source()}}
+{\footnotesize\ttfamily \label{unit__flow_8cpp_a2f5906857907a09bc4421cc35dab6ec8} 
+void test\+\_\+flow\+\_\+evaluate\+\_\+without\+\_\+source (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Testa o método evaluate() quando source não está definido. 
+
+Deve utilizar 0 como valor de entrada para a equação. 
+
+Definition at line \mbox{\hyperlink{unit__flow_8cpp_source_l00107}{107}} of file \mbox{\hyperlink{unit__flow_8cpp_source}{unit\+\_\+flow.\+cpp}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=328pt]{unit__flow_8cpp_a2f5906857907a09bc4421cc35dab6ec8_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=266pt]{unit__flow_8cpp_a2f5906857907a09bc4421cc35dab6ec8_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{unit__flow_8cpp_abb1a3ba9f04a5eb9ac787fa2117d924a}\index{unit\_flow.cpp@{unit\_flow.cpp}!test\_flow\_operator\_assignment@{test\_flow\_operator\_assignment}}
+\index{test\_flow\_operator\_assignment@{test\_flow\_operator\_assignment}!unit\_flow.cpp@{unit\_flow.cpp}}
+\doxysubsubsection{\texorpdfstring{test\_flow\_operator\_assignment()}{test\_flow\_operator\_assignment()}}
+{\footnotesize\ttfamily \label{unit__flow_8cpp_abb1a3ba9f04a5eb9ac787fa2117d924a} 
+void test\+\_\+flow\+\_\+operator\+\_\+assignment (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Testa o operador de atribuição da classe \doxylink{classFlow}{Flow}. 
+
+Verifica se todos os atributos (nome, source, target, equation) são copiados corretamente. 
+
+Definition at line \mbox{\hyperlink{unit__flow_8cpp_source_l00118}{118}} of file \mbox{\hyperlink{unit__flow_8cpp_source}{unit\+\_\+flow.\+cpp}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=327pt]{unit__flow_8cpp_abb1a3ba9f04a5eb9ac787fa2117d924a_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=264pt]{unit__flow_8cpp_abb1a3ba9f04a5eb9ac787fa2117d924a_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{unit__flow_8cpp_a0b6cbea222e33a481993b8f10bc0855a}\index{unit\_flow.cpp@{unit\_flow.cpp}!test\_flow\_setGetEquation@{test\_flow\_setGetEquation}}
+\index{test\_flow\_setGetEquation@{test\_flow\_setGetEquation}!unit\_flow.cpp@{unit\_flow.cpp}}
+\doxysubsubsection{\texorpdfstring{test\_flow\_setGetEquation()}{test\_flow\_setGetEquation()}}
+{\footnotesize\ttfamily \label{unit__flow_8cpp_a0b6cbea222e33a481993b8f10bc0855a} 
+void test\+\_\+flow\+\_\+set\+Get\+Equation (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Testa os métodos set\+Equation e get\+Equation. 
+
+
+
+Definition at line \mbox{\hyperlink{unit__flow_8cpp_source_l00082}{82}} of file \mbox{\hyperlink{unit__flow_8cpp_source}{unit\+\_\+flow.\+cpp}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{unit__flow_8cpp_a0b6cbea222e33a481993b8f10bc0855a_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=298pt]{unit__flow_8cpp_a0b6cbea222e33a481993b8f10bc0855a_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{unit__flow_8cpp_ac41d7a0bb4c647b3a759ee03e5440b86}\index{unit\_flow.cpp@{unit\_flow.cpp}!test\_flow\_setGetNome@{test\_flow\_setGetNome}}
+\index{test\_flow\_setGetNome@{test\_flow\_setGetNome}!unit\_flow.cpp@{unit\_flow.cpp}}
+\doxysubsubsection{\texorpdfstring{test\_flow\_setGetNome()}{test\_flow\_setGetNome()}}
+{\footnotesize\ttfamily \label{unit__flow_8cpp_ac41d7a0bb4c647b3a759ee03e5440b86} 
+void test\+\_\+flow\+\_\+set\+Get\+Nome (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Testa os métodos set\+Nome e get\+Nome. 
+
+
+
+Definition at line \mbox{\hyperlink{unit__flow_8cpp_source_l00047}{47}} of file \mbox{\hyperlink{unit__flow_8cpp_source}{unit\+\_\+flow.\+cpp}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=334pt]{unit__flow_8cpp_ac41d7a0bb4c647b3a759ee03e5440b86_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=285pt]{unit__flow_8cpp_ac41d7a0bb4c647b3a759ee03e5440b86_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{unit__flow_8cpp_ad7bbf5c5535ceb180e779bf06eacc301}\index{unit\_flow.cpp@{unit\_flow.cpp}!test\_flow\_setGetSource@{test\_flow\_setGetSource}}
+\index{test\_flow\_setGetSource@{test\_flow\_setGetSource}!unit\_flow.cpp@{unit\_flow.cpp}}
+\doxysubsubsection{\texorpdfstring{test\_flow\_setGetSource()}{test\_flow\_setGetSource()}}
+{\footnotesize\ttfamily \label{unit__flow_8cpp_ad7bbf5c5535ceb180e779bf06eacc301} 
+void test\+\_\+flow\+\_\+set\+Get\+Source (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Testa os métodos set\+Source e get\+Source com um \doxylink{classSystem}{System} real. 
+
+
+
+Definition at line \mbox{\hyperlink{unit__flow_8cpp_source_l00056}{56}} of file \mbox{\hyperlink{unit__flow_8cpp_source}{unit\+\_\+flow.\+cpp}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=348pt]{unit__flow_8cpp_ad7bbf5c5535ceb180e779bf06eacc301_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=288pt]{unit__flow_8cpp_ad7bbf5c5535ceb180e779bf06eacc301_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{unit__flow_8cpp_a83378ed492ea432fc69ba49a4e2483f4}\index{unit\_flow.cpp@{unit\_flow.cpp}!test\_flow\_setGetTarget@{test\_flow\_setGetTarget}}
+\index{test\_flow\_setGetTarget@{test\_flow\_setGetTarget}!unit\_flow.cpp@{unit\_flow.cpp}}
+\doxysubsubsection{\texorpdfstring{test\_flow\_setGetTarget()}{test\_flow\_setGetTarget()}}
+{\footnotesize\ttfamily \label{unit__flow_8cpp_a83378ed492ea432fc69ba49a4e2483f4} 
+void test\+\_\+flow\+\_\+set\+Get\+Target (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Testa os métodos set\+Target e get\+Target com um \doxylink{classSystem}{System} real. 
+
+
+
+Definition at line \mbox{\hyperlink{unit__flow_8cpp_source_l00069}{69}} of file \mbox{\hyperlink{unit__flow_8cpp_source}{unit\+\_\+flow.\+cpp}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=345pt]{unit__flow_8cpp_a83378ed492ea432fc69ba49a4e2483f4_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=285pt]{unit__flow_8cpp_a83378ed492ea432fc69ba49a4e2483f4_icgraph}
+\end{center}
+\end{figure}

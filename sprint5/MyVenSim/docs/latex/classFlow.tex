@@ -1,0 +1,516 @@
+\doxysection{Flow Class Reference}
+\hypertarget{classFlow}{}\label{classFlow}\index{Flow@{Flow}}
+
+
+Implementação da interface \doxylink{classIflow}{Iflow} que representa um fluxo entre dois sistemas.  
+
+
+
+
+{\ttfamily \#include $<$flow.\+h$>$}
+
+
+
+Inheritance diagram for Flow\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classFlow__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Flow\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classFlow__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classFlow_ac9975e144e606242748197798e87dd32}{Flow}} ()
+\begin{DoxyCompactList}\small\item\em Construtor padrão. Inicializa o nome como vazio e os ponteiros source, target e equation como nulos. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classFlow_a256ddc9041867bddf103bd042108b095}{Flow}} (string name)
+\begin{DoxyCompactList}\small\item\em Construtor com nome. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classFlow_a5991efa6e8cf88c4ef2125cc727db333}{\texorpdfstring{$\sim$}{\string~}\+Flow}} ()
+\begin{DoxyCompactList}\small\item\em Destrutor da classe \doxylink{classFlow}{Flow}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classFlow}{Flow}} \& \mbox{\hyperlink{classFlow_a32ea8a3720cbfaf871cd6c982bcf60cd}{operator=}} (\mbox{\hyperlink{classFlow}{Flow}} \&)
+\begin{DoxyCompactList}\small\item\em Operador de atribuição (cópia). \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classFlow_a17686d5a9388dab6cbc3d0350f9d7f0a}{set\+Source}} (\mbox{\hyperlink{classIsystem}{Isystem}} \texorpdfstring{$\ast$}{*}s1)
+\begin{DoxyCompactList}\small\item\em Define o sistema de origem (Source) para este fluxo. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classFlow_a42d7c4c3910e9753330b81da707335a8}{set\+Target}} (\mbox{\hyperlink{classIsystem}{Isystem}} \texorpdfstring{$\ast$}{*}s2)
+\begin{DoxyCompactList}\small\item\em Define o sistema de destino (Target) para este fluxo. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classIsystem}{Isystem}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classFlow_a5bed46d419bb63fcf9d7d5a9c9a61610}{get\+Source}} ()
+\begin{DoxyCompactList}\small\item\em Obtém o sistema de origem (Source). \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classIsystem}{Isystem}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classFlow_a3de25de4895144db86a837220c05a462}{get\+Target}} ()
+\begin{DoxyCompactList}\small\item\em Obtém o sistema de destino (Target). \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{classFlow_a608582dc40f22ffb499f8c844ee8e8ee}{get\+Nome}} ()
+\begin{DoxyCompactList}\small\item\em Obtém o nome do fluxo. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classFlow_a247acd8a02c40ac58b6b3c667c2c1e78}{set\+Nome}} (string \mbox{\hyperlink{classFlow_af7a3e0ebd0250048fcd2cd7b36e36dfc}{nome}})
+\begin{DoxyCompactList}\small\item\em Define o nome do fluxo. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classFlow_ab0328a0ed3a7c41d189a5074235eda96}{set\+Equation}} (function$<$ double(double)$>$ \mbox{\hyperlink{classFlow_af95b4acadcb9b9f73017cfa8a398baa7}{equation}})
+\begin{DoxyCompactList}\small\item\em Define a equação (função matemática) que calcula a taxa do fluxo. \end{DoxyCompactList}\item 
+const function$<$ double(double)$>$ \& \mbox{\hyperlink{classFlow_a27f7518509dc0eb9c906a858f280f47b}{get\+Equation}} () const
+\begin{DoxyCompactList}\small\item\em Obtém a equação de cálculo da taxa do fluxo. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classFlow_a3f9f622a865be965993b019f23a07c94}{evaluate}} ()
+\begin{DoxyCompactList}\small\item\em Avalia e calcula a taxa de fluxo atual. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{classFlow_af7a3e0ebd0250048fcd2cd7b36e36dfc}{nome}}
+\item 
+\mbox{\hyperlink{classIsystem}{Isystem}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classFlow_a212852148d63e95b943e274c82272d5d}{source}}
+\item 
+\mbox{\hyperlink{classIsystem}{Isystem}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classFlow_a7c43b2d8ff944736c045bf1a09a05509}{target}}
+\item 
+function$<$ double(double)$>$ \mbox{\hyperlink{classFlow_af95b4acadcb9b9f73017cfa8a398baa7}{equation}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classFlow_a721d5d04f522e83ced8e0b615c21fcda}{Unit\+Flow}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Implementação da interface \doxylink{classIflow}{Iflow} que representa um fluxo entre dois sistemas. 
+
+A classe \doxylink{classFlow}{Flow} implementa os métodos definidos na interface \doxylink{classIflow}{Iflow}, permitindo definir e obter o sistema de origem e destino, nome, equação do fluxo e avaliar o valor do fluxo com base na equação definida. 
+
+Definition at line \mbox{\hyperlink{flow_8h_source_l00031}{31}} of file \mbox{\hyperlink{flow_8h_source}{flow.\+h}}.
+
+
+
+\label{doc-constructors}
+\Hypertarget{classFlow_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classFlow_ac9975e144e606242748197798e87dd32}\index{Flow@{Flow}!Flow@{Flow}}
+\index{Flow@{Flow}!Flow@{Flow}}
+\doxysubsubsection{\texorpdfstring{Flow()}{Flow()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{classFlow_ac9975e144e606242748197798e87dd32} 
+Flow\+::\+Flow (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Construtor padrão. Inicializa o nome como vazio e os ponteiros source, target e equation como nulos. 
+
+
+
+Definition at line \mbox{\hyperlink{Flow_8cpp_source_l00024}{24}} of file \mbox{\hyperlink{Flow_8cpp_source}{Flow.\+cpp}}.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=279pt]{classFlow_ac9975e144e606242748197798e87dd32_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classFlow_a256ddc9041867bddf103bd042108b095}\index{Flow@{Flow}!Flow@{Flow}}
+\index{Flow@{Flow}!Flow@{Flow}}
+\doxysubsubsection{\texorpdfstring{Flow()}{Flow()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{classFlow_a256ddc9041867bddf103bd042108b095} 
+Flow\+::\+Flow (\begin{DoxyParamCaption}\item[{string}]{nome}{}\end{DoxyParamCaption})}
+
+
+
+Construtor com nome. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nome} & O nome atribuído a este fluxo. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line \mbox{\hyperlink{Flow_8cpp_source_l00030}{30}} of file \mbox{\hyperlink{Flow_8cpp_source}{Flow.\+cpp}}.
+
+\Hypertarget{classFlow_a5991efa6e8cf88c4ef2125cc727db333}\index{Flow@{Flow}!````~Flow@{\texorpdfstring{$\sim$}{\string~}Flow}}
+\index{````~Flow@{\texorpdfstring{$\sim$}{\string~}Flow}!Flow@{Flow}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}Flow()}{\string~Flow()}}
+{\footnotesize\ttfamily \label{classFlow_a5991efa6e8cf88c4ef2125cc727db333} 
+Flow\+::\texorpdfstring{$\sim$}{\string~}\+Flow (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Destrutor da classe \doxylink{classFlow}{Flow}. 
+
+
+
+Definition at line \mbox{\hyperlink{Flow_8cpp_source_l00018}{18}} of file \mbox{\hyperlink{Flow_8cpp_source}{Flow.\+cpp}}.
+
+
+
+\label{doc-func-members}
+\Hypertarget{classFlow_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classFlow_a3f9f622a865be965993b019f23a07c94}\index{Flow@{Flow}!evaluate@{evaluate}}
+\index{evaluate@{evaluate}!Flow@{Flow}}
+\doxysubsubsection{\texorpdfstring{evaluate()}{evaluate()}}
+{\footnotesize\ttfamily \label{classFlow_a3f9f622a865be965993b019f23a07c94} 
+double Flow\+::evaluate (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Avalia e calcula a taxa de fluxo atual. 
+
+
+\begin{DoxyItemize}
+\item Se o sistema de origem (source) estiver definido, a equação é aplicada ao valor atual desse sistema. Caso contrário, a equação é aplicada a 0.
+\item \begin{DoxyReturn}{Returns}
+double O valor calculado da taxa de fluxo. 
+\end{DoxyReturn}
+
+\end{DoxyItemize}
+
+Implements \mbox{\hyperlink{classIflow_acc3214b8791c6e3979338879d96aefda}{Iflow}}.
+
+
+
+Definition at line \mbox{\hyperlink{Flow_8cpp_source_l00105}{105}} of file \mbox{\hyperlink{Flow_8cpp_source}{Flow.\+cpp}}.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classFlow_a3f9f622a865be965993b019f23a07c94_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classFlow_a27f7518509dc0eb9c906a858f280f47b}\index{Flow@{Flow}!getEquation@{getEquation}}
+\index{getEquation@{getEquation}!Flow@{Flow}}
+\doxysubsubsection{\texorpdfstring{getEquation()}{getEquation()}}
+{\footnotesize\ttfamily \label{classFlow_a27f7518509dc0eb9c906a858f280f47b} 
+const function$<$ double(double)$>$ \& Flow\+::get\+Equation (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Obtém a equação de cálculo da taxa do fluxo. 
+
+\begin{DoxyReturn}{Returns}
+const std\+::function$<$double(double)$>$\& A referência constante para a função de equação. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classIflow_a2a66f84cec5e29ff5607ee4f913f1ab1}{Iflow}}.
+
+
+
+Definition at line \mbox{\hyperlink{Flow_8cpp_source_l00097}{97}} of file \mbox{\hyperlink{Flow_8cpp_source}{Flow.\+cpp}}.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classFlow_a27f7518509dc0eb9c906a858f280f47b_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classFlow_a608582dc40f22ffb499f8c844ee8e8ee}\index{Flow@{Flow}!getNome@{getNome}}
+\index{getNome@{getNome}!Flow@{Flow}}
+\doxysubsubsection{\texorpdfstring{getNome()}{getNome()}}
+{\footnotesize\ttfamily \label{classFlow_a608582dc40f22ffb499f8c844ee8e8ee} 
+string Flow\+::get\+Nome (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Obtém o nome do fluxo. 
+
+\begin{DoxyReturn}{Returns}
+string O nome do fluxo. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classIflow_ad11ef2fc513de49f136983d50a7a593c}{Iflow}}.
+
+
+
+Definition at line \mbox{\hyperlink{Flow_8cpp_source_l00078}{78}} of file \mbox{\hyperlink{Flow_8cpp_source}{Flow.\+cpp}}.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classFlow_a608582dc40f22ffb499f8c844ee8e8ee_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classFlow_a5bed46d419bb63fcf9d7d5a9c9a61610}\index{Flow@{Flow}!getSource@{getSource}}
+\index{getSource@{getSource}!Flow@{Flow}}
+\doxysubsubsection{\texorpdfstring{getSource()}{getSource()}}
+{\footnotesize\ttfamily \label{classFlow_a5bed46d419bb63fcf9d7d5a9c9a61610} 
+\mbox{\hyperlink{classIsystem}{Isystem}} \texorpdfstring{$\ast$}{*} Flow\+::get\+Source (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Obtém o sistema de origem (Source). 
+
+\begin{DoxyReturn}{Returns}
+Isystem\texorpdfstring{$\ast$}{*} O ponteiro para o sistema de origem. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classIflow_a9b469152ff7708c403b4b364adacab4f}{Iflow}}.
+
+
+
+Definition at line \mbox{\hyperlink{Flow_8cpp_source_l00066}{66}} of file \mbox{\hyperlink{Flow_8cpp_source}{Flow.\+cpp}}.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classFlow_a5bed46d419bb63fcf9d7d5a9c9a61610_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classFlow_a3de25de4895144db86a837220c05a462}\index{Flow@{Flow}!getTarget@{getTarget}}
+\index{getTarget@{getTarget}!Flow@{Flow}}
+\doxysubsubsection{\texorpdfstring{getTarget()}{getTarget()}}
+{\footnotesize\ttfamily \label{classFlow_a3de25de4895144db86a837220c05a462} 
+\mbox{\hyperlink{classIsystem}{Isystem}} \texorpdfstring{$\ast$}{*} Flow\+::get\+Target (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Obtém o sistema de destino (Target). 
+
+\begin{DoxyReturn}{Returns}
+Isystem\texorpdfstring{$\ast$}{*} O ponteiro para o sistema de destino. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classIflow_a9877325e3936e22431302a7d76b05967}{Iflow}}.
+
+
+
+Definition at line \mbox{\hyperlink{Flow_8cpp_source_l00072}{72}} of file \mbox{\hyperlink{Flow_8cpp_source}{Flow.\+cpp}}.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classFlow_a3de25de4895144db86a837220c05a462_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classFlow_a32ea8a3720cbfaf871cd6c982bcf60cd}\index{Flow@{Flow}!operator=@{operator=}}
+\index{operator=@{operator=}!Flow@{Flow}}
+\doxysubsubsection{\texorpdfstring{operator=()}{operator=()}}
+{\footnotesize\ttfamily \label{classFlow_a32ea8a3720cbfaf871cd6c982bcf60cd} 
+\mbox{\hyperlink{classFlow}{Flow}} \& Flow\+::operator= (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classFlow}{Flow}} \&}]{other}{}\end{DoxyParamCaption})}
+
+
+
+Operador de atribuição (cópia). 
+
+
+\begin{DoxyItemize}
+\item Este operador copia o nome, a equação, e os ponteiros de source e target do objeto \textquotesingle{}other\textquotesingle{} para o objeto atual.
+\item 
+\begin{DoxyParams}{Parameters}
+{\em other} & A referência para o objeto \doxylink{classFlow}{Flow} a ser copiado. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\doxylink{classFlow}{Flow}\& Uma referência para o objeto atual (this). 
+\end{DoxyReturn}
+
+\end{DoxyItemize}
+
+Definition at line \mbox{\hyperlink{Flow_8cpp_source_l00039}{39}} of file \mbox{\hyperlink{Flow_8cpp_source}{Flow.\+cpp}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=315pt]{classFlow_a32ea8a3720cbfaf871cd6c982bcf60cd_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classFlow_ab0328a0ed3a7c41d189a5074235eda96}\index{Flow@{Flow}!setEquation@{setEquation}}
+\index{setEquation@{setEquation}!Flow@{Flow}}
+\doxysubsubsection{\texorpdfstring{setEquation()}{setEquation()}}
+{\footnotesize\ttfamily \label{classFlow_ab0328a0ed3a7c41d189a5074235eda96} 
+void Flow\+::set\+Equation (\begin{DoxyParamCaption}\item[{function$<$ double(double)$>$}]{equation}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Define a equação (função matemática) que calcula a taxa do fluxo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em equation} & Uma função (lambda ou std\+::function) que recebe um double (o valor do Source) e retorna um double (a taxa de fluxo). \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{classIflow_a6fb6859b8de8e44d8350cf57b8e044c4}{Iflow}}.
+
+
+
+Definition at line \mbox{\hyperlink{Flow_8cpp_source_l00091}{91}} of file \mbox{\hyperlink{Flow_8cpp_source}{Flow.\+cpp}}.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classFlow_ab0328a0ed3a7c41d189a5074235eda96_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classFlow_a247acd8a02c40ac58b6b3c667c2c1e78}\index{Flow@{Flow}!setNome@{setNome}}
+\index{setNome@{setNome}!Flow@{Flow}}
+\doxysubsubsection{\texorpdfstring{setNome()}{setNome()}}
+{\footnotesize\ttfamily \label{classFlow_a247acd8a02c40ac58b6b3c667c2c1e78} 
+void Flow\+::set\+Nome (\begin{DoxyParamCaption}\item[{string}]{nome}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Define o nome do fluxo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nome} & A nova string de nome para o fluxo. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{classIflow_a80689715faa30b2d9bbb61d3511c6bb1}{Iflow}}.
+
+
+
+Definition at line \mbox{\hyperlink{Flow_8cpp_source_l00084}{84}} of file \mbox{\hyperlink{Flow_8cpp_source}{Flow.\+cpp}}.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classFlow_a247acd8a02c40ac58b6b3c667c2c1e78_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classFlow_a17686d5a9388dab6cbc3d0350f9d7f0a}\index{Flow@{Flow}!setSource@{setSource}}
+\index{setSource@{setSource}!Flow@{Flow}}
+\doxysubsubsection{\texorpdfstring{setSource()}{setSource()}}
+{\footnotesize\ttfamily \label{classFlow_a17686d5a9388dab6cbc3d0350f9d7f0a} 
+bool Flow\+::set\+Source (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classIsystem}{Isystem}} \texorpdfstring{$\ast$}{*}}]{s1}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Define o sistema de origem (Source) para este fluxo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em s1} & Um ponteiro para o sistema de origem (Isystem\texorpdfstring{$\ast$}{*}). \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool Retorna true em caso de sucesso. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classIflow_a5ebada65e521cab2527e02c96ab8aa75}{Iflow}}.
+
+
+
+Definition at line \mbox{\hyperlink{Flow_8cpp_source_l00053}{53}} of file \mbox{\hyperlink{Flow_8cpp_source}{Flow.\+cpp}}.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classFlow_a17686d5a9388dab6cbc3d0350f9d7f0a_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classFlow_a42d7c4c3910e9753330b81da707335a8}\index{Flow@{Flow}!setTarget@{setTarget}}
+\index{setTarget@{setTarget}!Flow@{Flow}}
+\doxysubsubsection{\texorpdfstring{setTarget()}{setTarget()}}
+{\footnotesize\ttfamily \label{classFlow_a42d7c4c3910e9753330b81da707335a8} 
+bool Flow\+::set\+Target (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classIsystem}{Isystem}} \texorpdfstring{$\ast$}{*}}]{s2}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Define o sistema de destino (Target) para este fluxo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em s2} & Um ponteiro para o sistema de destino (Isystem\texorpdfstring{$\ast$}{*}). \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool Retorna true em caso de sucesso. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classIflow_ab0039cdf215750e60cfd393951f53ab8}{Iflow}}.
+
+
+
+Definition at line \mbox{\hyperlink{Flow_8cpp_source_l00060}{60}} of file \mbox{\hyperlink{Flow_8cpp_source}{Flow.\+cpp}}.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classFlow_a42d7c4c3910e9753330b81da707335a8_icgraph}
+\end{center}
+\end{figure}
+
+
+\label{doc-related-members}
+\Hypertarget{classFlow_doc-related-members}
+\doxysubsection{Friends And Related Symbol Documentation}
+\Hypertarget{classFlow_a721d5d04f522e83ced8e0b615c21fcda}\index{Flow@{Flow}!UnitFlow@{UnitFlow}}
+\index{UnitFlow@{UnitFlow}!Flow@{Flow}}
+\doxysubsubsection{\texorpdfstring{UnitFlow}{UnitFlow}}
+{\footnotesize\ttfamily \label{classFlow_a721d5d04f522e83ced8e0b615c21fcda} 
+friend class \mbox{\hyperlink{classUnitFlow}{Unit\+Flow}}\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Definition at line \mbox{\hyperlink{flow_8h_source_l00051}{51}} of file \mbox{\hyperlink{flow_8h_source}{flow.\+h}}.
+
+
+
+\label{doc-variable-members}
+\Hypertarget{classFlow_doc-variable-members}
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classFlow_af95b4acadcb9b9f73017cfa8a398baa7}\index{Flow@{Flow}!equation@{equation}}
+\index{equation@{equation}!Flow@{Flow}}
+\doxysubsubsection{\texorpdfstring{equation}{equation}}
+{\footnotesize\ttfamily \label{classFlow_af95b4acadcb9b9f73017cfa8a398baa7} 
+function$<$double(double)$>$ Flow\+::equation\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{flow_8h_source_l00036}{36}} of file \mbox{\hyperlink{flow_8h_source}{flow.\+h}}.
+
+\Hypertarget{classFlow_af7a3e0ebd0250048fcd2cd7b36e36dfc}\index{Flow@{Flow}!nome@{nome}}
+\index{nome@{nome}!Flow@{Flow}}
+\doxysubsubsection{\texorpdfstring{nome}{nome}}
+{\footnotesize\ttfamily \label{classFlow_af7a3e0ebd0250048fcd2cd7b36e36dfc} 
+string Flow\+::nome\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{flow_8h_source_l00033}{33}} of file \mbox{\hyperlink{flow_8h_source}{flow.\+h}}.
+
+\Hypertarget{classFlow_a212852148d63e95b943e274c82272d5d}\index{Flow@{Flow}!source@{source}}
+\index{source@{source}!Flow@{Flow}}
+\doxysubsubsection{\texorpdfstring{source}{source}}
+{\footnotesize\ttfamily \label{classFlow_a212852148d63e95b943e274c82272d5d} 
+\mbox{\hyperlink{classIsystem}{Isystem}}\texorpdfstring{$\ast$}{*} Flow\+::source\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{flow_8h_source_l00034}{34}} of file \mbox{\hyperlink{flow_8h_source}{flow.\+h}}.
+
+\Hypertarget{classFlow_a7c43b2d8ff944736c045bf1a09a05509}\index{Flow@{Flow}!target@{target}}
+\index{target@{target}!Flow@{Flow}}
+\doxysubsubsection{\texorpdfstring{target}{target}}
+{\footnotesize\ttfamily \label{classFlow_a7c43b2d8ff944736c045bf1a09a05509} 
+\mbox{\hyperlink{classIsystem}{Isystem}}\texorpdfstring{$\ast$}{*} Flow\+::target\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{flow_8h_source_l00035}{35}} of file \mbox{\hyperlink{flow_8h_source}{flow.\+h}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/\mbox{\hyperlink{flow_8h}{flow.\+h}}\item 
+src/\mbox{\hyperlink{Flow_8cpp}{Flow.\+cpp}}\end{DoxyCompactItemize}

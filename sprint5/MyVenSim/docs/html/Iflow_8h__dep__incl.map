@@ -1,0 +1,32 @@
+<map id="include/interface/Iflow.h" name="include/interface/Iflow.h">
+<area shape="rect" id="Node000001" title="Interface que define o comportamento de um fluxo (Flow)." alt="" coords="407,5,584,31"/>
+<area shape="rect" id="Node000002" href="$Model_8h.html" title="Declaração da classe Model que implementa a interface Imodel." alt="" coords="399,152,525,177"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="492,45,467,152,462,151,487,44"/>
+<area shape="rect" id="Node000007" href="$unit__model_8cpp.html" title="Implementação dos testes unitários da classe Model." alt="" coords="5,233,185,258"/>
+<area shape="poly" id="edge19_Node000001_Node000007" title=" " alt="" coords="394,34,323,52,288,65,255,81,205,118,162,161,127,203,105,234,101,231,123,200,158,158,202,114,253,76,286,60,322,47,392,29"/>
+<area shape="rect" id="Node000008" href="$flow_8h.html" title="Declaração da classe Flow que implementa a interface Iflow." alt="" coords="577,152,688,177"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="518,39,624,150,620,154,514,43"/>
+<area shape="rect" id="Node000010" href="$unit__flow_8cpp.html" title="Implementação dos testes unitários da classe Flow." alt="" coords="1001,233,1166,258"/>
+<area shape="poly" id="edge18_Node000001_Node000010" title=" " alt="" coords="539,33,1054,230,1052,235,537,38"/>
+<area shape="rect" id="Node000011" href="$Imodel_8h.html" title="Interface que define o comportamento de um modelo (Model)." alt="" coords="266,79,458,104"/>
+<area shape="poly" id="edge14_Node000001_Node000011" title=" " alt="" coords="463,39,385,81,383,76,461,35"/>
+<area shape="rect" id="Node000003" href="$Model_8cpp.html" title="Implementação da classe Model, responsável pela gestão e execução da simulação." alt="" coords="210,233,322,258"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="422,185,296,235,294,230,420,180"/>
+<area shape="rect" id="Node000004" href="$src_2main_8cpp.html" title="Ponto de entrada principal do programa e exemplo de simulação de modelo." alt="" coords="744,233,849,258"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="533,177,733,223,760,230,759,235,732,228,532,183"/>
+<area shape="rect" id="Node000005" href="$funcional__tests_8cpp.html" title="Implementa os testes funcionais para validar a dinâmica do simulador (Model, System,..." alt="" coords="347,225,521,265"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="456,191,443,226,438,224,451,189"/>
+<area shape="rect" id="Node000006" href="$test_2funcional_2main_8cpp.html" title=" " alt="" coords="545,233,720,258"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="500,181,609,230,607,235,498,185"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="396,183,149,235,148,230,395,178"/>
+<area shape="poly" id="edge9_Node000008_Node000004" title=" " alt="" coords="670,181,774,230,772,235,668,186"/>
+<area shape="poly" id="edge10_Node000008_Node000005" title=" " alt="" coords="592,185,483,228,481,223,590,180"/>
+<area shape="poly" id="edge11_Node000008_Node000006" title=" " alt="" coords="635,191,635,232,630,232,630,191"/>
+<area shape="poly" id="edge13_Node000008_Node000007" title=" " alt="" coords="564,177,198,228,156,235,155,230,198,223,563,172"/>
+<area shape="rect" id="Node000009" href="$Flow_8cpp.html" title="Implementação da classe Flow que representa um fluxo entre dois sistemas." alt="" coords="873,233,976,258"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="693,178,863,223,888,230,886,235,861,228,691,183"/>
+<area shape="poly" id="edge12_Node000008_Node000010" title=" " alt="" coords="702,174,989,223,1027,230,1026,235,988,228,701,179"/>
+<area shape="poly" id="edge15_Node000011_Node000002" title=" " alt="" coords="391,110,447,150,444,154,388,114"/>
+<area shape="poly" id="edge16_Node000011_Node000005" title=" " alt="" coords="370,117,378,146,390,176,421,224,416,227,385,179,373,148,365,118"/>
+<area shape="poly" id="edge17_Node000011_Node000007" title=" " alt="" coords="331,113,117,235,114,230,329,108"/>
+</map>

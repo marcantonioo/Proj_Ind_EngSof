@@ -1,0 +1,396 @@
+\doxysection{Model Class Reference}
+\hypertarget{classModel}{}\label{classModel}\index{Model@{Model}}
+
+
+Implementação da interface \doxylink{classImodel}{Imodel} que representa um modelo de sistemas e fluxos.  
+
+
+
+
+{\ttfamily \#include $<$Model.\+h$>$}
+
+
+
+Inheritance diagram for Model\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=159pt]{classModel__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Model\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=159pt]{classModel__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classModel_ae3b375de5f6df4faf74a95d64748e048}{Model}} ()
+\begin{DoxyCompactList}\small\item\em Construtor padrão da classe \doxylink{classModel}{Model}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classModel_ad6ebd2062a0b823db841a0b88baac4c0}{\texorpdfstring{$\sim$}{\string~}\+Model}} ()
+\begin{DoxyCompactList}\small\item\em Destrutor da classe \doxylink{classModel}{Model}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classModel}{Model}} \& \mbox{\hyperlink{classModel_aaa76b9c72b66fa245f6b7b92d1ecc032}{operator=}} (const \mbox{\hyperlink{classModel}{Model}} \&other)
+\begin{DoxyCompactList}\small\item\em Operador de atribuição (cópia rasa, Shallow Copy). \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classModel_ad5578b0bc8a75aa34a3471b8610c9f2b}{add}} (\mbox{\hyperlink{classIsystem}{Isystem}} \texorpdfstring{$\ast$}{*}, \mbox{\hyperlink{classIflow}{Iflow}} \texorpdfstring{$\ast$}{*})
+\begin{DoxyCompactList}\small\item\em Adiciona um sistema e um fluxo simultaneamente. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classModel_ab82f34169558736e232003cd65188ae6}{add}} (\mbox{\hyperlink{classIsystem}{Isystem}} \texorpdfstring{$\ast$}{*})
+\begin{DoxyCompactList}\small\item\em Adiciona um novo sistema à coleção. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classModel_a2e2e58eb0c6600405cf584589c818294}{add}} (\mbox{\hyperlink{classIflow}{Iflow}} \texorpdfstring{$\ast$}{*})
+\begin{DoxyCompactList}\small\item\em Adiciona um novo fluxo à coleção. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classModel_a65182b0d8da2a5ee94ec00d17dda1dc9}{remove}} (\mbox{\hyperlink{classIsystem}{Isystem}} \texorpdfstring{$\ast$}{*})
+\begin{DoxyCompactList}\small\item\em Remove e libera a memória de um sistema da coleção. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classModel_a79e6599071ef3b9f7e7cd8ad19df9bb5}{remove}} (\mbox{\hyperlink{classIflow}{Iflow}} \texorpdfstring{$\ast$}{*})
+\begin{DoxyCompactList}\small\item\em Remove e libera a memória de um fluxo da coleção. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classModel_ac88fa17b0fe57d934596464f844cfa6a}{run}} (double inicio, double fim, double ritmo)
+\begin{DoxyCompactList}\small\item\em Executa a simulação dinâmica do modelo. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+vector$<$ \mbox{\hyperlink{classIflow}{Iflow}} \texorpdfstring{$\ast$}{*} $>$ \mbox{\hyperlink{classModel_a944a01f0f4c0fe9ce1b8123ab1fd98a3}{Flows}}
+\item 
+vector$<$ \mbox{\hyperlink{classIsystem}{Isystem}} \texorpdfstring{$\ast$}{*} $>$ \mbox{\hyperlink{classModel_a9bb1dd5f612ee8af16416181002a012f}{Systems}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classModel_acfe6145ac71b7c6b9065c61d09de0131}{Unit\+Model}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Implementação da interface \doxylink{classImodel}{Imodel} que representa um modelo de sistemas e fluxos. 
+
+A classe \doxylink{classModel}{Model} implementa os métodos definidos na interface \doxylink{classImodel}{Imodel}, permitindo adicionar e remover sistemas e fluxos, bem como executar a simulação do modelo ao longo do tempo. 
+
+Definition at line \mbox{\hyperlink{Model_8h_source_l00026}{26}} of file \mbox{\hyperlink{Model_8h_source}{Model.\+h}}.
+
+
+
+\label{doc-constructors}
+\Hypertarget{classModel_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classModel_ae3b375de5f6df4faf74a95d64748e048}\index{Model@{Model}!Model@{Model}}
+\index{Model@{Model}!Model@{Model}}
+\doxysubsubsection{\texorpdfstring{Model()}{Model()}}
+{\footnotesize\ttfamily \label{classModel_ae3b375de5f6df4faf74a95d64748e048} 
+Model\+::\+Model (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Construtor padrão da classe \doxylink{classModel}{Model}. 
+
+
+
+Definition at line \mbox{\hyperlink{Model_8cpp_source_l00014}{14}} of file \mbox{\hyperlink{Model_8cpp_source}{Model.\+cpp}}.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=301pt]{classModel_ae3b375de5f6df4faf74a95d64748e048_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classModel_ad6ebd2062a0b823db841a0b88baac4c0}\index{Model@{Model}!````~Model@{\texorpdfstring{$\sim$}{\string~}Model}}
+\index{````~Model@{\texorpdfstring{$\sim$}{\string~}Model}!Model@{Model}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}Model()}{\string~Model()}}
+{\footnotesize\ttfamily \label{classModel_ad6ebd2062a0b823db841a0b88baac4c0} 
+Model\+::\texorpdfstring{$\sim$}{\string~}\+Model (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Destrutor da classe \doxylink{classModel}{Model}. 
+
+
+\begin{DoxyItemize}
+\item Note\+: O destrutor deve idealmente ser responsável por liberar a memória
+\item dos Sistemas e Fluxos que ele possui (se não estiver usando smart pointers). 
+\end{DoxyItemize}
+
+Definition at line \mbox{\hyperlink{Model_8cpp_source_l00021}{21}} of file \mbox{\hyperlink{Model_8cpp_source}{Model.\+cpp}}.
+
+
+
+\label{doc-func-members}
+\Hypertarget{classModel_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classModel_a2e2e58eb0c6600405cf584589c818294}\index{Model@{Model}!add@{add}}
+\index{add@{add}!Model@{Model}}
+\doxysubsubsection{\texorpdfstring{add()}{add()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily \label{classModel_a2e2e58eb0c6600405cf584589c818294} 
+bool Model\+::add (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classIflow}{Iflow}} \texorpdfstring{$\ast$}{*}}]{flow}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Adiciona um novo fluxo à coleção. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em flow} & O ponteiro para o fluxo (Iflow\texorpdfstring{$\ast$}{*}) a ser adicionado. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool Retorna true se a adição foi bem-\/sucedida, false caso contrário. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classImodel_abc658cdf8d65a67e5f129dc32556d023}{Imodel}}.
+
+
+
+Definition at line \mbox{\hyperlink{Model_8cpp_source_l00092}{92}} of file \mbox{\hyperlink{Model_8cpp_source}{Model.\+cpp}}.
+
+\Hypertarget{classModel_ab82f34169558736e232003cd65188ae6}\index{Model@{Model}!add@{add}}
+\index{add@{add}!Model@{Model}}
+\doxysubsubsection{\texorpdfstring{add()}{add()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily \label{classModel_ab82f34169558736e232003cd65188ae6} 
+bool Model\+::add (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classIsystem}{Isystem}} \texorpdfstring{$\ast$}{*}}]{sistema}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Adiciona um novo sistema à coleção. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em sistema} & O ponteiro para o sistema (Isystem\texorpdfstring{$\ast$}{*}) a ser adicionado. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool Retorna true se a adição foi bem-\/sucedida, false caso contrário. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classImodel_acd54a7bd5e2a1c9dfa065e9e5faf9423}{Imodel}}.
+
+
+
+Definition at line \mbox{\hyperlink{Model_8cpp_source_l00081}{81}} of file \mbox{\hyperlink{Model_8cpp_source}{Model.\+cpp}}.
+
+\Hypertarget{classModel_ad5578b0bc8a75aa34a3471b8610c9f2b}\index{Model@{Model}!add@{add}}
+\index{add@{add}!Model@{Model}}
+\doxysubsubsection{\texorpdfstring{add()}{add()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily \label{classModel_ad5578b0bc8a75aa34a3471b8610c9f2b} 
+bool Model\+::add (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classIsystem}{Isystem}} \texorpdfstring{$\ast$}{*}}]{sistema}{, }\item[{\mbox{\hyperlink{classIflow}{Iflow}} \texorpdfstring{$\ast$}{*}}]{flow}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Adiciona um sistema e um fluxo simultaneamente. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em sistema} & O ponteiro para o sistema (Isystem\texorpdfstring{$\ast$}{*}) a ser adicionado. \\
+\hline
+{\em flow} & O ponteiro para o fluxo (Iflow\texorpdfstring{$\ast$}{*}) a ser adicionado. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool Retorna true se ambos foram adicionados com sucesso, false caso contrário. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classImodel_a4eb0b076151d841db5a6dffb1fbde239}{Imodel}}.
+
+
+
+Definition at line \mbox{\hyperlink{Model_8cpp_source_l00104}{104}} of file \mbox{\hyperlink{Model_8cpp_source}{Model.\+cpp}}.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classModel_ad5578b0bc8a75aa34a3471b8610c9f2b_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classModel_aaa76b9c72b66fa245f6b7b92d1ecc032}\index{Model@{Model}!operator=@{operator=}}
+\index{operator=@{operator=}!Model@{Model}}
+\doxysubsubsection{\texorpdfstring{operator=()}{operator=()}}
+{\footnotesize\ttfamily \label{classModel_aaa76b9c72b66fa245f6b7b92d1ecc032} 
+\mbox{\hyperlink{classModel}{Model}} \& Model\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classModel}{Model}} \&}]{other}{}\end{DoxyParamCaption})}
+
+
+
+Operador de atribuição (cópia rasa, Shallow Copy). 
+
+
+\begin{DoxyItemize}
+\item Copia as listas de ponteiros (Flows e Systems) da outra \doxylink{classModel}{Model}.
+\item {\bfseries{AVISO\+:}} Este é um \textquotesingle{}shallow copy\textquotesingle{} dos ponteiros. Deve-\/se garantir que
+\item os objetos apontados não sejam liberados duas vezes. 
+\begin{DoxyParams}{Parameters}
+{\em other} & O objeto \doxylink{classModel}{Model} a ser copiado. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\doxylink{classModel}{Model}\& Uma referência para o objeto \doxylink{classModel}{Model} atual (this). 
+\end{DoxyReturn}
+
+\end{DoxyItemize}
+
+Definition at line \mbox{\hyperlink{Model_8cpp_source_l00031}{31}} of file \mbox{\hyperlink{Model_8cpp_source}{Model.\+cpp}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=301pt]{classModel_aaa76b9c72b66fa245f6b7b92d1ecc032_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classModel_a79e6599071ef3b9f7e7cd8ad19df9bb5}\index{Model@{Model}!remove@{remove}}
+\index{remove@{remove}!Model@{Model}}
+\doxysubsubsection{\texorpdfstring{remove()}{remove()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{classModel_a79e6599071ef3b9f7e7cd8ad19df9bb5} 
+bool Model\+::remove (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classIflow}{Iflow}} \texorpdfstring{$\ast$}{*}}]{f}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Remove e libera a memória de um fluxo da coleção. 
+
+
+\begin{DoxyItemize}
+\item Procura o ponteiro Iflow\texorpdfstring{$\ast$}{*} na lista Flows. Se encontrado, ele é removido
+\item da lista e sua memória é liberada usando {\ttfamily delete}. 
+\begin{DoxyParams}{Parameters}
+{\em f} & O ponteiro para o fluxo (Iflow\texorpdfstring{$\ast$}{*}) a ser removido. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool Retorna true se o fluxo foi encontrado e removido, false caso contrário. 
+\end{DoxyReturn}
+
+\end{DoxyItemize}
+
+Implements \mbox{\hyperlink{classImodel_acf872e1b20187e989c3b9999d1c18a20}{Imodel}}.
+
+
+
+Definition at line \mbox{\hyperlink{Model_8cpp_source_l00064}{64}} of file \mbox{\hyperlink{Model_8cpp_source}{Model.\+cpp}}.
+
+\Hypertarget{classModel_a65182b0d8da2a5ee94ec00d17dda1dc9}\index{Model@{Model}!remove@{remove}}
+\index{remove@{remove}!Model@{Model}}
+\doxysubsubsection{\texorpdfstring{remove()}{remove()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{classModel_a65182b0d8da2a5ee94ec00d17dda1dc9} 
+bool Model\+::remove (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classIsystem}{Isystem}} \texorpdfstring{$\ast$}{*}}]{f}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Remove e libera a memória de um sistema da coleção. 
+
+
+\begin{DoxyItemize}
+\item Procura o ponteiro Isystem\texorpdfstring{$\ast$}{*} na lista Systems. Se encontrado, ele é removido
+\item da lista e sua memória é liberada usando {\ttfamily delete}. 
+\begin{DoxyParams}{Parameters}
+{\em f} & O ponteiro para o sistema (Isystem\texorpdfstring{$\ast$}{*}) a ser removido. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool Retorna true se o sistema foi encontrado e removido, false caso contrário. 
+\end{DoxyReturn}
+
+\end{DoxyItemize}
+
+Implements \mbox{\hyperlink{classImodel_aaf1e254803b66422b51995ef067597f4}{Imodel}}.
+
+
+
+Definition at line \mbox{\hyperlink{Model_8cpp_source_l00045}{45}} of file \mbox{\hyperlink{Model_8cpp_source}{Model.\+cpp}}.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classModel_a65182b0d8da2a5ee94ec00d17dda1dc9_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classModel_ac88fa17b0fe57d934596464f844cfa6a}\index{Model@{Model}!run@{run}}
+\index{run@{run}!Model@{Model}}
+\doxysubsubsection{\texorpdfstring{run()}{run()}}
+{\footnotesize\ttfamily \label{classModel_ac88fa17b0fe57d934596464f844cfa6a} 
+void Model\+::run (\begin{DoxyParamCaption}\item[{double}]{inicio}{, }\item[{double}]{fim}{, }\item[{double}]{ritmo}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Executa a simulação dinâmica do modelo. 
+
+
+\begin{DoxyItemize}
+\item \texorpdfstring{$\ast$}{*} O método realiza a simulação do tempo de {\ttfamily inicio} até {\ttfamily fim}, usando
+\item {\ttfamily ritmo} (passo de tempo, ou dt) para cada iteração.
+\item 1. Calcula os valores de todos os fluxos na iteração atual.
+\item 2. Atualiza os valores dos Sistemas de Origem (Source) e Destino (Target)
+\item para cada fluxo usando a diferença de Euler (integração).
+\item 
+\begin{DoxyParams}{Parameters}
+{\em inicio} & O tempo inicial da simulação. \\
+\hline
+{\em fim} & O tempo final da simulação (exclusivo). \\
+\hline
+{\em ritmo} & O tamanho do passo de tempo (dt) para a integração. \\
+\hline
+\end{DoxyParams}
+
+\end{DoxyItemize}
+
+Implements \mbox{\hyperlink{classImodel_a79507ba263a41c83a10bd93f679ce5c4}{Imodel}}.
+
+
+
+Definition at line \mbox{\hyperlink{Model_8cpp_source_l00122}{122}} of file \mbox{\hyperlink{Model_8cpp_source}{Model.\+cpp}}.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classModel_ac88fa17b0fe57d934596464f844cfa6a_icgraph}
+\end{center}
+\end{figure}
+
+
+\label{doc-related-members}
+\Hypertarget{classModel_doc-related-members}
+\doxysubsection{Friends And Related Symbol Documentation}
+\Hypertarget{classModel_acfe6145ac71b7c6b9065c61d09de0131}\index{Model@{Model}!UnitModel@{UnitModel}}
+\index{UnitModel@{UnitModel}!Model@{Model}}
+\doxysubsubsection{\texorpdfstring{UnitModel}{UnitModel}}
+{\footnotesize\ttfamily \label{classModel_acfe6145ac71b7c6b9065c61d09de0131} 
+friend class \mbox{\hyperlink{classUnitModel}{Unit\+Model}}\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Definition at line \mbox{\hyperlink{Model_8h_source_l00041}{41}} of file \mbox{\hyperlink{Model_8h_source}{Model.\+h}}.
+
+
+
+\label{doc-variable-members}
+\Hypertarget{classModel_doc-variable-members}
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classModel_a944a01f0f4c0fe9ce1b8123ab1fd98a3}\index{Model@{Model}!Flows@{Flows}}
+\index{Flows@{Flows}!Model@{Model}}
+\doxysubsubsection{\texorpdfstring{Flows}{Flows}}
+{\footnotesize\ttfamily \label{classModel_a944a01f0f4c0fe9ce1b8123ab1fd98a3} 
+vector$<$\mbox{\hyperlink{classIflow}{Iflow}}\texorpdfstring{$\ast$}{*}$>$ Model\+::\+Flows\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{Model_8h_source_l00028}{28}} of file \mbox{\hyperlink{Model_8h_source}{Model.\+h}}.
+
+\Hypertarget{classModel_a9bb1dd5f612ee8af16416181002a012f}\index{Model@{Model}!Systems@{Systems}}
+\index{Systems@{Systems}!Model@{Model}}
+\doxysubsubsection{\texorpdfstring{Systems}{Systems}}
+{\footnotesize\ttfamily \label{classModel_a9bb1dd5f612ee8af16416181002a012f} 
+vector$<$\mbox{\hyperlink{classIsystem}{Isystem}}\texorpdfstring{$\ast$}{*}$>$ Model\+::\+Systems\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{Model_8h_source_l00029}{29}} of file \mbox{\hyperlink{Model_8h_source}{Model.\+h}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/\mbox{\hyperlink{Model_8h}{Model.\+h}}\item 
+src/\mbox{\hyperlink{Model_8cpp}{Model.\+cpp}}\end{DoxyCompactItemize}

@@ -1,0 +1,7 @@
+<map id="test_system_initial" name="test_system_initial">
+<area shape="rect" id="Node000001" title="Testa o construtor default do System." alt="" coords="5,31,152,56"/>
+<area shape="rect" id="Node000002" href="$classSystem.html#a8b9cc75a5971a2e830d0768e90e61b46" title="Obtém o nome do sistema." alt="" coords="200,5,339,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="152,31,186,26,186,32,153,36"/>
+<area shape="rect" id="Node000003" href="$classSystem.html#ac6f5cf5f07a414398ac2ef5843531d1b" title="Obtém o valor atual do sistema." alt="" coords="201,55,337,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="152,50,188,54,188,60,152,55"/>
+</map>

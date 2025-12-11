@@ -1,0 +1,19 @@
+<map id="test_flow_operator_assignment" name="test_flow_operator_assignment">
+<area shape="rect" id="Node000001" title="Testa o operador de atribuição da classe Flow." alt="" coords="5,171,148,211"/>
+<area shape="rect" id="Node000002" href="$classFlow.html#a27f7518509dc0eb9c906a858f280f47b" title="Obtém a equação de cálculo da taxa do fluxo." alt="" coords="196,5,335,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="87,169,129,106,159,71,194,40,203,34,206,39,198,44,163,74,133,109,91,172"/>
+<area shape="rect" id="Node000003" href="$classFlow.html#a608582dc40f22ffb499f8c844ee8e8ee" title="Obtém o nome do fluxo." alt="" coords="205,55,325,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="95,169,139,129,195,89,207,83,209,88,197,94,142,133,99,173"/>
+<area shape="rect" id="Node000004" href="$classFlow.html#a5bed46d419bb63fcf9d7d5a9c9a61610" title="Obtém o sistema de origem (Source)." alt="" coords="203,104,328,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="122,169,195,138,213,132,215,137,197,143,124,174"/>
+<area shape="rect" id="Node000005" href="$classFlow.html#a3de25de4895144db86a837220c05a462" title="Obtém o sistema de destino (Target)." alt="" coords="205,153,326,179"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="148,179,191,173,192,179,149,184"/>
+<area shape="rect" id="Node000006" href="$classFlow.html#ab0328a0ed3a7c41d189a5074235eda96" title="Define a equação (função matemática) que calcula a taxa do fluxo." alt="" coords="197,203,334,228"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="149,198,184,202,183,208,148,203"/>
+<area shape="rect" id="Node000007" href="$classFlow.html#a17686d5a9388dab6cbc3d0350f9d7f0a" title="Define o sistema de origem (Source) para este fluxo." alt="" coords="203,252,327,277"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="128,209,197,237,217,245,215,250,195,242,126,214"/>
+<area shape="rect" id="Node000008" href="$classFlow.html#a42d7c4c3910e9753330b81da707335a8" title="Define o sistema de destino (Target) para este fluxo." alt="" coords="205,301,325,327"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="100,210,143,248,197,286,212,294,209,298,195,291,140,252,96,214"/>
+<area shape="rect" id="Node000009" href="$classSystem.html#a985be93d67e277a0f4a448bdc995b315" title="Define um novo valor para o sistema." alt="" coords="198,351,333,376"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="92,210,134,272,163,306,198,336,208,342,205,347,194,340,160,310,129,275,87,213"/>
+</map>

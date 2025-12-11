@@ -1,0 +1,118 @@
+\doxysection{Isystem Class Reference}
+\hypertarget{classIsystem}{}\label{classIsystem}\index{Isystem@{Isystem}}
+
+
+Interface que define o comportamento de um sistema (\doxylink{classSystem}{System}).  
+
+
+
+
+{\ttfamily \#include $<$Isystem.\+h$>$}
+
+
+
+Inheritance diagram for Isystem\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=159pt]{classIsystem__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Isystem\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=154pt]{classIsystem__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual bool \mbox{\hyperlink{classIsystem_abfa9270f6341df00fa33bcffc1b59dab}{set\+Value}} (double valor)=0
+\item 
+virtual double \mbox{\hyperlink{classIsystem_abda0e5de7822a6a35f3e6907939624e7}{get\+Value}} ()=0
+\item 
+virtual bool \mbox{\hyperlink{classIsystem_a6bd66c1dc9976de09a04357c6f214b73}{set\+Nome}} (string nome)=0
+\item 
+virtual string \mbox{\hyperlink{classIsystem_a8e93a989e5c7a65e578c6f61d90283b2}{get\+Nome}} ()=0
+\item 
+virtual bool \mbox{\hyperlink{classIsystem_a14ecbcc1dc311e2dc68746efcf978a69}{update}} (double value)=0
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Interface que define o comportamento de um sistema (\doxylink{classSystem}{System}). 
+
+A interface \doxylink{classIsystem}{Isystem} declara métodos para definir e obter o valor e nome do sistema, bem como para atualizar seu valor. 
+
+Definition at line \mbox{\hyperlink{Isystem_8h_source_l00025}{25}} of file \mbox{\hyperlink{Isystem_8h_source}{Isystem.\+h}}.
+
+
+
+\label{doc-func-members}
+\Hypertarget{classIsystem_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classIsystem_a8e93a989e5c7a65e578c6f61d90283b2}\index{Isystem@{Isystem}!getNome@{getNome}}
+\index{getNome@{getNome}!Isystem@{Isystem}}
+\doxysubsubsection{\texorpdfstring{getNome()}{getNome()}}
+{\footnotesize\ttfamily \label{classIsystem_a8e93a989e5c7a65e578c6f61d90283b2} 
+virtual string Isystem\+::get\+Nome (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Implemented in \mbox{\hyperlink{classSystem_a8b9cc75a5971a2e830d0768e90e61b46}{System}}.
+
+\Hypertarget{classIsystem_abda0e5de7822a6a35f3e6907939624e7}\index{Isystem@{Isystem}!getValue@{getValue}}
+\index{getValue@{getValue}!Isystem@{Isystem}}
+\doxysubsubsection{\texorpdfstring{getValue()}{getValue()}}
+{\footnotesize\ttfamily \label{classIsystem_abda0e5de7822a6a35f3e6907939624e7} 
+virtual double Isystem\+::get\+Value (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Implemented in \mbox{\hyperlink{classSystem_ac6f5cf5f07a414398ac2ef5843531d1b}{System}}.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classIsystem_abda0e5de7822a6a35f3e6907939624e7_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classIsystem_a6bd66c1dc9976de09a04357c6f214b73}\index{Isystem@{Isystem}!setNome@{setNome}}
+\index{setNome@{setNome}!Isystem@{Isystem}}
+\doxysubsubsection{\texorpdfstring{setNome()}{setNome()}}
+{\footnotesize\ttfamily \label{classIsystem_a6bd66c1dc9976de09a04357c6f214b73} 
+virtual bool Isystem\+::set\+Nome (\begin{DoxyParamCaption}\item[{string}]{nome}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Implemented in \mbox{\hyperlink{classSystem_ae9b2583861d1b16e47da30d31b450dd6}{System}}.
+
+\Hypertarget{classIsystem_abfa9270f6341df00fa33bcffc1b59dab}\index{Isystem@{Isystem}!setValue@{setValue}}
+\index{setValue@{setValue}!Isystem@{Isystem}}
+\doxysubsubsection{\texorpdfstring{setValue()}{setValue()}}
+{\footnotesize\ttfamily \label{classIsystem_abfa9270f6341df00fa33bcffc1b59dab} 
+virtual bool Isystem\+::set\+Value (\begin{DoxyParamCaption}\item[{double}]{valor}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Implemented in \mbox{\hyperlink{classSystem_a985be93d67e277a0f4a448bdc995b315}{System}}.
+
+\Hypertarget{classIsystem_a14ecbcc1dc311e2dc68746efcf978a69}\index{Isystem@{Isystem}!update@{update}}
+\index{update@{update}!Isystem@{Isystem}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily \label{classIsystem_a14ecbcc1dc311e2dc68746efcf978a69} 
+virtual bool Isystem\+::update (\begin{DoxyParamCaption}\item[{double}]{value}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Implemented in \mbox{\hyperlink{classSystem_a2916e6f8f3edee0eb9301e467d472c89}{System}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+include/interface/\mbox{\hyperlink{Isystem_8h}{Isystem.\+h}}\end{DoxyCompactItemize}
